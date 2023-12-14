@@ -1,10 +1,8 @@
 import React from 'react'
 import "./hero.css"
 
-const Hero = () => {
+export const Hero = () => {
   return (
-    <div>Hero Section</div>
+    <div>Hero</div>
   )
 }
-
-export default Hero
