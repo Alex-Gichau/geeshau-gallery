@@ -17,10 +17,13 @@ button {
 .sidebar {
     position: absolute;
     overflow: hidden;
+    display: flex;
 }
 
 .sidebar.open {
-    width: 260px;
+    width: 200px;
+    background-color: #c44b00;
+    position: relative;
 }
 
 .siderbar.inner {
@@ -47,6 +50,7 @@ button {
 
 .sidebar-logo {
     height: 28px;
+    position: absolute;
 }
 
 .sidebar-menu {
@@ -91,3 +95,4 @@ button {
 :is(.sidebar-button p, .sidebar-logo){
     opacity: 1;
 }
+

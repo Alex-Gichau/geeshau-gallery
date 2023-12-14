@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import './sidebar.css';
 
-const navItems = ['Home', 'About', 'Branding', 'Geeshau Toons',''];
+const navItems = ['Home', 'About', 'Branding', 'Animations'];
 
 export const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className={`sidebar ${isOpen ? 'open' : ''}`}>
+    <div className={`sidebar ${isOpen ? 'open' : ''}`}>
       <div className='sidebar-inner'>
-        <header className='sidebar-header'>
+        <div className='sidebar-header'>
           <button
             type='button'
             className='sidebar-burger'
@@ -16,8 +16,10 @@ export const Sidebar = () => {
           >
             <span>{isOpen ? 'close' : 'menu'}</span>
           </button>
-          <img src='' className='sidebar-logo' />
-        </header>
+
+          <img src="../../assets/Geeshau-logo.png" className='sidebar-logo' alt='logo'/>
+        </div>
+
         <nav className='sidebar-menu'>
           {navItems.map((item) => (
             <button key={item} type='button' className='sidebar-button'>
@@ -27,6 +29,6 @@ export const Sidebar = () => {
           ))}
         </nav>
       </div>
-    </nav>
+    </div>
   );
 };
