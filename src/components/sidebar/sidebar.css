@@ -1,10 +1,22 @@
+:root {
+    --primary-background:#272727;
+    --rounded-corner:15px;
+    --secondary-background: rgb(30, 42, 42);
+    --text-color:white;
+    --transition-duration:300ms;
+    --uniform-padding:12px;
+    --theme-color-orange: rgb(255, 123, 0);
+    --hover-background:rgb(17, 17, 17);
+
+}
+
 * {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
-    background: #272727;
+    background:var(--primary-background);
 }
 
 button {
@@ -17,16 +29,26 @@ button {
 .sidebar {
     position: absolute;
     overflow: hidden;
-    display: flex;
+    width: 60px;
+    transition: width 180ms;
+    height:100%;
+    top:0;
+    left:0;
+}
+
+.sidebar-menu {
+    display: grid;
+    grid-template-rows: 45px 45px 65px;
 }
 
 .sidebar.open {
-    width: 200px;
-    background-color: #c44b00;
-    position: relative;
+    width: 16%;
+    background-color:var(--secondary-background);
+    height:100%;
+
 }
 
-.siderbar.inner {
+.sidebar.inner {
     position: 0;
     top: 0;
     left: 0;
@@ -34,23 +56,24 @@ button {
 }
 
 .sidebar-header {
-    display:flex;
-    align-items: center;
     height: 72px;
-    background: rgb(0 0 0/ 15%);
+    display: flex;
+    background: var(--secondary-background);
+    align-items: center;
+    border-radius: 0 0 var(--rounded-corner);
 }
 
 .sidebar-burger {
     width: 60px;
     height: 72px;
     display: grid;
-    place-items: center;
+    align-items: center;
     color: #f9f9f9f9;
+    padding: var(--uniform-padding);
 }
 
 .sidebar-logo {
-    height: 28px;
-    position: absolute;
+    height: 3rem;
 }
 
 .sidebar-menu {
@@ -60,16 +83,14 @@ button {
 
 .sidebar-button {
     display: flex;
-    gap: 16px;
+    gap: 6px;
     align-items: center;
-    height: 56px;
+    height: 45px;
     width: 100%;
-    font-family: "Poppins";
-    font-size: 16px;
+    border-radius: 7px;
     text-transform: capitalize;
-    line-height: 1;
-    padding: 0px 10px;
-    color: #f9f9f9f9;
+    padding: 0px 7px;
+    color: var(--text-color);
     opacity: 0.8;
 }
 
@@ -77,8 +98,14 @@ button {
     opacity: 0.5;
 }
 
+.sidebar-burger:hover {
+    color:var(--theme-color-orange);
+}
+
 .sidebar-button:hover {
-    background: rgb(0 0 0/ 30%);
+    background: var(--hover-background);
+    transition: var(--transition-duration);
+    font-weight: 800;
     opacity: 1;
 }
 
@@ -88,11 +115,19 @@ button {
 
 .sidebar-logo, .sidebar-button p {
     opacity: 0;
-    transition: 0.3s;
+    transition:var(--transition-duration);
 }
 
 .sidebar.open
 :is(.sidebar-button p, .sidebar-logo){
     opacity: 1;
+}
+
+/* Mobile Display */
+@media screen and (max-width : 768px) {
+    .sidebar { 
+        display: none;
+    }
+    
 }
 
