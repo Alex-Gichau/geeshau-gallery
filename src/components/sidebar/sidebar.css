@@ -30,6 +30,7 @@ button {
     position: absolute;
     overflow: hidden;
     width: 60px;
+    z-index: 1;
     transition: width 180ms;
     height:100%;
     top:0;

@@ -3,6 +3,6 @@ import "./hero.css"
 
 export const Hero = () => {
   return (
-    <div>Hero</div>
+    <div className='hero-wrapper'>Hero</div>
   )
 }

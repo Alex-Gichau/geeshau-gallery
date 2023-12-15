@@ -1,0 +1,18 @@
+:root {
+    --primary-background:#272727;
+    --rounded-corner:15px;
+    --secondary-background: rgb(30, 42, 42);
+    --text-color:white;
+    --transition-duration:300ms;
+    --uniform-padding:12px;
+    --theme-color-orange: rgb(255, 123, 0);
+    --hover-background:rgb(17, 17, 17);
+
+}
+
+.hero-wrapper {
+    margin: 0 7% 0 7%;
+    background-color: red;
+    width: 60rem;
+    display: flex;
+}
