@@ -38,7 +38,7 @@ button {
 
 .sidebar-menu {
     display: grid;
-    grid-template-rows: 45px 45px 65px;
+    /* grid-template-rows: 45px 45px 45px 65px; */
 }
 
 .sidebar.open {
@@ -59,6 +59,7 @@ button {
     height: 72px;
     display: flex;
     background: var(--secondary-background);
+    opacity: 0.8;
     align-items: center;
     border-radius: 0 0 var(--rounded-corner);
 }
@@ -103,9 +104,9 @@ button {
 }
 
 .sidebar-button:hover {
-    background: var(--hover-background);
+    background: var(--theme-color-orange);
     transition: var(--transition-duration);
-    font-weight: 800;
+    transition:font 800;
     opacity: 1;
 }
 

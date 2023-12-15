@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from "../../assets/Geeshau-logo.png"
 import './sidebar.css';
 
-const navItems = ["home","info","dashboard","contacts","store","Reviews"];
+const navItems = ["dashboard","search","reviews","notifications","info","category","artist","contacts"];
 
 export const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
