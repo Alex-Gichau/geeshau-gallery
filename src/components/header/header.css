@@ -1,3 +1,5 @@
+@import url('../../App.css');
+
 * {
     box-sizing: border-box;
   }
@@ -11,7 +13,7 @@
     margin: 0;
     background: #f1f0fa;
     overflow-x: hidden;
-    font-family: "Euclid Circular A", "Poppins";
+    font-family: "Roboto";
   }
   
   :root {
@@ -23,9 +25,9 @@
   nav {
     position: relative;
     display: flex;
-    align-items: center;
+    justify-items: flex-start;
     padding: 0 20px;
-    background: #ffffff;
+    background: #ff3fff;
     width: 100%;
     height: 60px;
     box-shadow: 0 20px 30px rgba(57, 76, 96, 0.06);
@@ -33,7 +35,6 @@
   
   nav a {
     text-decoration: none;
-    color: inherit;
     font-weight: 500;
     padding: 0 10px;
   }
