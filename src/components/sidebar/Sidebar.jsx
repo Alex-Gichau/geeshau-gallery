@@ -4,7 +4,7 @@ import './sidebar.css';
 
 const navItems = ["dashboard","search","reviews","notifications","info","category","artist","contacts"];
 
-TODO:// #1 https://www.instagram.com/p/CqOsBd-Djbp/?hl=en&img_index=2 [pop over text on hover]
+// #1 https://www.instagram.com/p/CqOsBd-Djbp/?hl=en&img_index=2 [pop over text on hover]
 
 export const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,6 +26,7 @@ export const Sidebar = () => {
             </button>
           ))}
         </nav>
+        
       </div>
     </div>
   );
