@@ -26,6 +26,13 @@ export const Sidebar = () => {
             </button>
           ))}
         </nav>
+
+        <nav className='sidebar-footer'>
+          <div className='sb-footer-details'>
+            <img src={logo} alt="Footer profile" className='sb-footer-profile'/>
+            <h1 className="sb-footer-name">Geeshau Art Office</h1>
+          </div>
+        </nav>
         
       </div>
     </div>

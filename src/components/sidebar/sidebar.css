@@ -3,7 +3,7 @@
     --rounded-corner:15px;
     --secondary-background: rgb(30, 42, 42);
     --text-color:white;
-    --transition-duration:300ms;
+    --transition-duration:200ms;
     --uniform-padding:12px;
     --theme-color-orange: rgb(255, 123, 0);
     --hover-background:rgb(17, 17, 17);
@@ -28,10 +28,11 @@ button {
 
 .sidebar {
     position: absolute;
+    display: none;
     overflow: hidden;
     width: 60px;
     z-index: 1;
-    transition: width 180ms;
+    transition: width --transition-duration;
     height:100%;
     top:60px;
     background-color:var(--secondary-background);
@@ -46,7 +47,7 @@ button {
 .sidebar.open {
     width: 16%;
     background-color:var(--secondary-background);
-    height:100%;
+    height:80%;
 
 }
 
@@ -83,6 +84,15 @@ button {
     padding: 10px;
 }
 
+.sidebar-footer {
+    bottom: 0;
+    width:3%;
+    display: none;
+    position:fixed;
+    
+
+}
+
 .sidebar-button {
     display: flex;
     gap: 6px;
@@ -101,6 +111,7 @@ button {
 }
 
 .sidebar-burger:hover {
+    transition:cubic-bezier(1, 0, 0, 1);
     color:var(--theme-color-orange);
 }
 
