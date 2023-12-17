@@ -3,7 +3,8 @@ import './header.css';
 
 
 import image1 from '../../assets/Geeshau-logo.png';
-import { Pagination } from 'swiper';
+import { Pagination } from 'swiper/modules';
+import { Swiper,SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 
