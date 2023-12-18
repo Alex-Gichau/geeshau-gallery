@@ -8,8 +8,8 @@ export const Footer = () => {
         <article>
           <h2>BRAND YOUR BRAND</h2>
           <button>
-            <p>Sign Up free</p>
-            <span className='material-symbols-outlined'>trending_flat</span>
+            <p>See Our Catalogue</p>
+            <span className='material-symbols-outlined'>sms</span>
           </button>
         </article>
 
