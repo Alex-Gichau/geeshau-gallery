@@ -9,21 +9,11 @@ root.render(
   </React.StrictMode>
 );
 
-const menuContent = document.querySelector("#menuContent");
-
-const menuButtons = document.querySelectorAll(".menu-buttons button");
-
-const menuHeight = getComputedStyle(document.documentElement).getPropertyValue(
-  "--menu-height"
-);
-
-const toggleMenuOpen = (value) => {
-  document.body.classList.toggle("open", value);
-};
-
-const toggleMenuBlock = (event, index) => {
-  menuButtons.forEach((button) => button.classList.remove("active"));
-  event.classList.toggle("active");
-  menuContent.style.translate = `0 calc(0px - ${menuHeight} * ${index})`;
-};
+console.clear();
+const list = document.querySelectorAll('.list');
+const nav = document.querySelector('.navigation');
+list.forEach(item => item.addEventListener('click', function(e){
+	list.forEach(li => li.classList.remove('active'));
+	e.currentTarget.classList.add('active');
+}));
 
