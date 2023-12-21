@@ -62,3 +62,18 @@
     background: #f9f9fa;
 }
 
+.navigation ul li.active a. icon:before {
+    opacity: 0.5;
+    transition-delay: 0.25;
+}
+
+.indicator {
+    position: absolute;
+    top: -35px;
+    width: 70px;
+    height: 70px;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+    transition: 0.5s;
+}
