@@ -6,10 +6,11 @@ export const Footer = () => {
   return (
     <div className='footer-wrapper'>
       <footer>
-        <article>
+        <article className='floating-banner'>
           <h2>BRAND YOUR BRAND</h2>
-          <button>
+          <button className='button'>
             <p>See Our Catalogue</p>
+            <p>|</p>
             <span className='material-symbols-outlined'>sms</span>
           </button>
         </article>
@@ -44,8 +45,14 @@ export const Footer = () => {
             </li>
             
           </ul>
-          <hr/>
         </section>
+        {/* <div className="socials">
+          <a href="#"><img src={logo} alt="WhatsApp"/></a>
+          <a href="#"><img src={logo} alt="WhatsApp"/></a>
+          <a href="#"><img src={logo} alt="WhatsApp"/></a>
+          <a href="#"><img src={logo} alt="WhatsApp"/></a>
+          <a href="#"><img src={logo} alt="WhatsApp"/></a>
+        </div> */}
         <section className="bottom">Since 2019</section>
       </footer>
     </div>
