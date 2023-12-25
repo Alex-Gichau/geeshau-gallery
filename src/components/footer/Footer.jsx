@@ -1,13 +1,13 @@
-import React from 'react'
-import "./footer.css"
-import logo from '../../assets/Geeshau-logo.png'
+import React from 'react';
+import './footer.css';
+import logo from '../../assets/Geeshau-logo.png';
 
 export const Footer = () => {
   return (
     <div className='footer-wrapper'>
       <footer>
         <article className='floating-banner'>
-          <h2>BRAND YOUR BRAND</h2>
+          <p className='slogan'>BRAND <i>YOUR</i> BRAND</p>
           <button className='button'>
             <p>See Our Catalogue</p>
             <p>|</p>
@@ -15,12 +15,13 @@ export const Footer = () => {
           </button>
         </article>
 
-        <section className="top">
-          {/* <img src={logo} alt="Geeshau Logo"/> */}
+        <section className='top'>
           <ul>
             <li>
-              <h3>ABOUT GEESHAU ART</h3>
-              <a>And let us not lose heart and grow weary and faint in acting nobly and doing right, for in due time and at the appointed season we shall reap, if we do not loosen and relax our courage and faint.And let us not lose heart and grow weary and faint in acting nobly and doing right</a>
+              <span>
+                {/* <img src={logo} alt="Geeshau Logo"className='logo'/> */}
+                <h3>ABOUT GEESHAU ART & GRAPHICS</h3></span>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </li>
             <li>
               <h3>Social Media</h3>
@@ -43,7 +44,19 @@ export const Footer = () => {
               <a>Overview</a>
               <a>Overview</a>
             </li>
-            
+            <li>
+              <h3>OUR </h3>
+              <a>Overview</a>
+              <a>Overview</a>
+              <a>Overview</a>
+              <a>Overview</a>
+            </li><li>
+              <h3>OUR </h3>
+              <a>Overview</a>
+              <a>Overview</a>
+              <a>Overview</a>
+              <a>Overview</a>
+            </li>
           </ul>
         </section>
         {/* <div className="socials">
@@ -53,8 +66,8 @@ export const Footer = () => {
           <a href="#"><img src={logo} alt="WhatsApp"/></a>
           <a href="#"><img src={logo} alt="WhatsApp"/></a>
         </div> */}
-        <section className="bottom">Since 2019</section>
+        <section className='bottom'>Since 2019</section>
       </footer>
     </div>
-  )
-}
+  );
+};

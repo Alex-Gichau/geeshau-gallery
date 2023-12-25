@@ -1,14 +1,4 @@
-:root {
-    --primary-background:#272727;
-    --rounded-corner:15px;
-    --secondary-background: rgb(30, 42, 42);
-    --text-color:white;
-    --transition-duration:200ms;
-    --uniform-padding:12px;
-    --theme-color-orange: rgb(255, 123, 0);
-    --hover-background:rgb(17, 17, 17);
-
-}
+@import url('../../App.css');
 
 * {
     box-sizing: border-box;
