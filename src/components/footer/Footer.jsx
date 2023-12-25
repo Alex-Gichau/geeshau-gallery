@@ -18,44 +18,34 @@ export const Footer = () => {
         <section className='top'>
           <ul>
             <li>
-              <span>
-                {/* <img src={logo} alt="Geeshau Logo"className='logo'/> */}
-                <h3>ABOUT GEESHAU ART & GRAPHICS</h3></span>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              <h3>OFFICE DAYS</h3>
+              <p>We are open from <b>Monday to Friday : <br/>
+              From 08:00AM 	&#x27A1; 06:00PM.</b> Available <br/>
+              <b>Sartuday from 08:00AM 	&#x27A1; 12:00PM.</b><br/>For urgent tasks, we are available on <br/>appointment. <b>Call or WhatsApp Us.</b></p>
             </li>
+            <hr/>
             <li>
-              <h3>Social Media</h3>
+              <h3>SOCIAL MEDIA</h3>
               <a href='#'>Instagram</a>
               <a href='#'>Behance</a>
               <a href='#'>WhatsApp</a>
               <a href='#'>Pinterest</a>
             </li>
+            <hr/>
             <li>
-              <h3>SEE MORE</h3>
-              <a>Testimonials</a>
-              <a>What we Design</a>
-              <a>Portfolio</a>
-              <a>Our Catalogue</a>
+              <h3>TERMS OF SERVICE</h3>
+              <p> &#9989; Quality of Service</p>
+              <p> &#9989; Time Efficient</p>
+              <p> &#9989; Quick Delivery</p>
+              <p> &#9989; Direct contant with clients</p>
             </li>
+            <hr/>
             <li>
-              <h3>OUR </h3>
-              <a>Overview</a>
-              <a>Overview</a>
-              <a>Overview</a>
-              <a>Overview</a>
-            </li>
-            <li>
-              <h3>OUR </h3>
-              <a>Overview</a>
-              <a>Overview</a>
-              <a>Overview</a>
-              <a>Overview</a>
-            </li><li>
-              <h3>OUR </h3>
-              <a>Overview</a>
-              <a>Overview</a>
-              <a>Overview</a>
-              <a>Overview</a>
+              <h3>DOWNLOADS </h3>
+              <a>Our Portfolio</a>
+              <a>Our Designer</a>
+              <a>Our flyer</a>
+              <a>Our pricing</a>
             </li>
           </ul>
         </section>
@@ -66,7 +56,7 @@ export const Footer = () => {
           <a href="#"><img src={logo} alt="WhatsApp"/></a>
           <a href="#"><img src={logo} alt="WhatsApp"/></a>
         </div> */}
-        <section className='bottom'>Since 2019</section>
+        <section className='bottom'>&copy; Since June 2020</section>
       </footer>
     </div>
   );
