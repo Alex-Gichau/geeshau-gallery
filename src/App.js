@@ -9,11 +9,11 @@ import { Header } from './components/header/Header';
 const App = () => {
   return (
     <>
-      <Sidebar/>
-      <Header/>
+      {/* <Sidebar/> */}
+      {/* <Header/> */}
       <Magicnav/>
-      <Footer/>
-      <Hero/>
+      {/* <Footer/> */}
+      {/* <Hero/> */}
     </>
   );
 }
