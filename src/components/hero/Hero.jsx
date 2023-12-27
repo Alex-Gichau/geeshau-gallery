@@ -1,43 +1,80 @@
-import React from 'react'
-import "./hero.css";
+import React from 'react';
+import './hero.css';
 
 export const Hero = () => {
   return (
     <div className='hero-wrapper'>
-      <ul className="slider">
-        <li className="item">
-          <div className="content">
-            <h2 className="title">Lossless Youths</h2>
-            <p className="description">This is a picture that will morph into the background then switch to other features of the website</p>
-            <button>Read More</button>
+      <div className='slider'>
+        <div className='item'>
+          <div className='content'>
+            <div className='name'>Switzerland</div>
+            <div className='des'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
+              voluptate sequi fuga sit quisquam commodi consequuntur ex
+              explicabo quam natus ad nesciunt.
+            </div>
+            <button className='see-more'>See More</button>
           </div>
-        </li>
-        <li className="item">
-          <div className="content">
-            <h2 className="title">Lossless Youths</h2>
-            <p className="description">This is a picture that will morph into the background then switch to other features of the website</p>
-            <button>Read More</button>
+        </div>
+
+        <div className='item'>
+          <div className='content'>
+            <div className='name'>Kenya</div>
+            <div className='des'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
+              voluptate sequi fuga sit quisquam commodi consequuntur ex
+              explicabo quam natus ad nesciunt.
+            </div>
+            <button className='see-more'>See More</button>
           </div>
-        </li>
-        <li className="item">
-          <div className="content">
-            <h2 className="title">Lossless Youths</h2>
-            <p className="description">This is a picture that will morph into the background then switch to other features of the website</p>
-            <button>Read More</button>
+        </div>
+
+        <div className='item'>
+          <div className='content'>
+            <div className='name'>Switzerland</div>
+            <div className='des'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
+              voluptate sequi fuga sit quisquam commodi consequuntur ex
+              explicabo quam natus ad nesciunt.
+            </div>
+            <button className='see-more'>See More</button>
           </div>
-        </li>
-        <li className="item">
-          <div className="content">
-            <h2 className="title">Lossless Youths</h2>
-            <p className="description">This is a picture that will morph into the background then switch to other features of the website</p>
-            <button>Read More</button>
+        </div>
+
+        <div className='item'>
+          <div className='content'>
+            <div className='name'>Switzerland</div>
+            <div className='des'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
+              voluptate sequi fuga sit quisquam commodi consequuntur ex
+              explicabo quam natus ad nesciunt.
+            </div>
+            <button className='see-more'>See More</button>
           </div>
-        </li>
-      </ul>
-      <nav className="nav">
-        <ion-icon className="prev"><span className='material-symbols-outlined'>Arrow_Back_iOS</span></ion-icon>
-        <ion-icon className="prev"><span className='material-symbols-outlined'>Arrow_Forward_iOS</span></ion-icon>
-      </nav>
+        </div>
+
+        <div className='item'>
+          <div className='content'>
+            <div className='name'>Switzerland</div>
+            <div className='des'>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
+              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
+              voluptate sequi fuga sit quisquam commodi consequuntur ex
+              explicabo quam natus ad nesciunt.
+            </div>
+            <button className='see-more'>See More</button>
+          </div>
+        </div>
+      </div>
+
+      <div className="button-nav">
+        <button className="prev"></button>
+        <button className="next"></button>
+      </div>
     </div>
-  )
-}
+  );
+};

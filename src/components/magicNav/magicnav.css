@@ -1,54 +1,62 @@
 @import url("../../App.css");
 
-@media screen and (max-width: 480px) {
+* {
+    box-sizing: border-box;
+}
+
+.nav-container {
+    display: flex;
+    
+}
+
+.nav-container ul {
+    display: flex;
+    position: relative;
+    
+}
+
+.nav-container ul li {
+    width: 6rem;
+    text-align: center;
+    border: 2px solid #aaa;
+    border-radius: 10px;
+
+}
+
+.nav-container ul li a {
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    padding-top: 6px;
+    
+}
+
+.nav-container ul li a span:nth-child(1) {
+    cursor: pointer;
+    transition:500ms;
+    
+}
+
+.nav-container ul li a span:nth-child(1):active {
+     margin-top: 6px;
+}
+
+.nav-container ul li a span:nth-child(2) {
+    transform: translateY(3rem);
+    transition: 400ms;
+    opacity: 0;
+
+}
+
+.nav-container ul li a span:nth-child(2):active {
+    opacity: 100%;
+    transform: translateY(3rem);
+    
+}
+
+@media screen and (min-width:480px) {
     .nav-container {
-        display: flex;
-        
-    
-    }
-    
-    .nav-container ul {
-        display: flex;
-        position: relative;
-        
-    }
-    
-    .nav-container ul li {
-        width: 6rem;
-        text-align: center;
-        border: 2px solid #aaa;
-        border-radius: 10px;
-    
-    }
-    
-    .nav-container ul li a {
-        display:flex;
-        flex-direction: column;
-        text-align:center;
-        padding-top: 6px;
-        
-    }
-    
-    .nav-container ul li a span:nth-child(1) {
-        cursor: pointer;
-        transition:500ms;
-        
-    }
-    
-    .nav-container ul li a span:nth-child(1):active {
-         margin-top: 6px;
-    }
-    
-    .nav-container ul li a span:nth-child(2) {
-        transform: translateY(3rem);
-        transition: 400ms;
-        opacity: 0;
-    
-    }
-    
-    .nav-container ul li a span:nth-child(2):active {
-        opacity: 100%;
-        transform: translateY(3rem);
+        display: none;
     }
     
 }

@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import logo from '../../assets/Geeshau-logo.png';
 
-export const Footer = () => {
+export const Footer = () => { 
   return (
     <div className='footer-wrapper'>
       <footer>
@@ -49,13 +49,6 @@ export const Footer = () => {
             </li>
           </ul>
         </section>
-        {/* <div className="socials">
-          <a href="#"><img src={logo} alt="WhatsApp"/></a>
-          <a href="#"><img src={logo} alt="WhatsApp"/></a>
-          <a href="#"><img src={logo} alt="WhatsApp"/></a>
-          <a href="#"><img src={logo} alt="WhatsApp"/></a>
-          <a href="#"><img src={logo} alt="WhatsApp"/></a>
-        </div> */}
         <section className='bottom'>&copy; Since June 2020</section>
       </footer>
     </div>
