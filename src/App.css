@@ -1,5 +1,5 @@
 :root {
-  --primary-background:#272727;
+  --primary-background:#fff;
   --border-radius:15px;
   --secondary-background: rgb(30, 42, 42);
   --text-color:white;
@@ -33,14 +33,12 @@
 }
 
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
 }
 
 .App-link {

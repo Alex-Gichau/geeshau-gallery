@@ -72,8 +72,8 @@ export const Hero = () => {
       </div>
 
       <div className="button-nav">
-        <button className="prev"></button>
-        <button className="next"></button>
+        <button className="prev"><span className='materials-symbol-outline'>Chevron_Right</span></button>
+        <button className="next"><span className='Arrow'>Chevron_Left</span></button>
       </div>
     </div>
   );

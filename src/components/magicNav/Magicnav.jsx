@@ -18,7 +18,7 @@ export const Magicnav = () => {
           Menus.map((menu,i) => (
             <li key={i}>{active}
               <a onClick={() => setActive(i)}>
-                <span className={`${i === active && "-mt-6"}`}>
+                <span className={`${i === active}`}>
                   <ion-icon name={menu.icon}></ion-icon>
                 </span>
                 <span className={`${active === i}`}>{menu.name}</span>
