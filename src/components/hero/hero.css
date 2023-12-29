@@ -1,124 +1,46 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import url(../../App.css);
 
-.item {
-    background-image: url("https://www.reuters.com/resizer/u2_JypmyeMVTPS84knxRQ-aQCi8=/480x0/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/OAI6F2YJDFKKDKFTTLCKIJLFIM.jpg");
-} 
-
-.hero-wrapper {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 1000px;
-    height: 600px;
-    box-shadow: 0 30px 50px #1b1b1b;
-}
-
-.hero-wrapper .slider .item {
-    width: 200px;
-    height: 300px;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
-    border-radius: 20px;
-    box-shadow: 0 30px 50px #00000071;
-    background-position: 50% 50%;
-    background-size: cover;
-    display: inline-block;
-    transition: 0.5s;
-}
-
-.slider .item:nth-child(1),
-.slider .item:nth-child(2){
-    top: 0;
-    left: 0;
-    transform: translate(0, 0);
-    border-radius: 0;
-    width: 100%;
-    height: 100%;
+.header {
+    margin: 4rem 0 0 0;
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr;
+    place-content: center;
+    margin: 0 3rem;
+    background: rgb(255, 168, 44);
+    background: linear-gradient(90deg, rgba(255, 168, 44, 1) 0%, rgba(255, 141, 0, 1) 39%, rgba(222, 0, 0, 1) 100%);
+    color: white;
 
 }
 
-.slider .item:nth-child(3) {
-    left: 50%;
+.header-container {
+    padding: 4rem;
 }
 
-.slider .item:nth-child(4) {
-    left: calc(50% + 220px);
+.header-right {
+    border: 2px solid red;
+
+
 }
 
-.slider .item:nth-child(5) {
-    left: calc(50% + 440px);
+.header-left {
+    border: 2px solid rgb(3, 194, 51);
 }
 
-.slider .item:nth-child(n + 6) {
-    left: calc(50% + 660px);
+.header-left h4 {
+    font-size: 2rem;
+    font-weight: 200;
 }
 
-.item .content {
-    position: absolute;
-    top: 50%;
-    left: 100px;
-    width: 300px;
-    text-align: left;
-    color: #eee;
-    transform: translate(0, -50%);
-    font-family: inherit;
-    display: none;
+img {
+    filter: grayscale() blur(10px);
+    object-fit: cover;
+    max-width: 70%;
 }
 
-.slider .item:nth-child(2) .content {
-    display: block;
-}
+img:hover {
+    filter: blur(0px) grayscale(0);
+    transition: 200ms ease-in-out cubic-bezier(4);
 
-.content {
-    background: none;
-}
-
-.content .name {
-    font-style: 40px;
-    text-transform: uppercase;
-    font-weight: bold;
-    opacity: 0;
-    animation: animate 1s ease-in-out 1 forwards;
-}
-
-.content .des {
-    margin-top: 10px;
-    margin-bottom: 20px;
-    opacity: 0;
-    animation: animate 1s ease-in-out 0.3s 1 forwards;
-}
-
-.content button {
-    padding: 10px 20px;
-    color: #1b1b1b;
-    border: none;
-    cursor: pointer ;
-    opacity: 0;
-    animation: animate 1s ease-in-out 0.6s 1 forwards;
-}
-
-@keyframes animate {
-    from {
-        opacity: 0;
-        transform: translate(0, 100px);
-        filter: blur(33px);
-    }
-
-    to {
-        opacity: 1;
-        transform: translate(0);
-        filter: blur(0);
-    }
-}
-
-.button {
-    width: 100%;
-    height: 35px;
-    background-color: wheat;
 }

@@ -1,80 +1,25 @@
 import React from 'react';
 import './hero.css';
+import logo from "../../assets/Geeshau-logo.png"
 
 export const Hero = () => {
   return (
-    <div className='hero-wrapper'>
-      <div className='slider'>
-        <div className='item'>
-          <div className='content'>
-            <div className='name'>Switzerland</div>
-            <div className='des'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
-              voluptate sequi fuga sit quisquam commodi consequuntur ex
-              explicabo quam natus ad nesciunt.
-            </div>
-            <button className='see-more'>See More</button>
-          </div>
-        </div>
-
-        <div className='item'>
-          <div className='content'>
-            <div className='name'>Kenya</div>
-            <div className='des'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
-              voluptate sequi fuga sit quisquam commodi consequuntur ex
-              explicabo quam natus ad nesciunt.
-            </div>
-            <button className='see-more'>See More</button>
-          </div>
-        </div>
-
-        <div className='item'>
-          <div className='content'>
-            <div className='name'>Switzerland</div>
-            <div className='des'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
-              voluptate sequi fuga sit quisquam commodi consequuntur ex
-              explicabo quam natus ad nesciunt.
-            </div>
-            <button className='see-more'>See More</button>
-          </div>
-        </div>
-
-        <div className='item'>
-          <div className='content'>
-            <div className='name'>Switzerland</div>
-            <div className='des'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
-              voluptate sequi fuga sit quisquam commodi consequuntur ex
-              explicabo quam natus ad nesciunt.
-            </div>
-            <button className='see-more'>See More</button>
-          </div>
-        </div>
-
-        <div className='item'>
-          <div className='content'>
-            <div className='name'>Switzerland</div>
-            <div className='des'>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero
-              iure impedit quibusdam velit, dicta perspiciatis ullam dolor,
-              voluptate sequi fuga sit quisquam commodi consequuntur ex
-              explicabo quam natus ad nesciunt.
-            </div>
-            <button className='see-more'>See More</button>
-          </div>
+    <div className='header'>
+      <div className="header-container">
+        <div className="header-left">
+          <h4>THE BEST IN THE MARKET</h4>
+          <h1>Take Your Brand to the Next Level</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, quam ipsa? Facere, voluptatum quisquam. Enim assumenda vel, placeat commodi cupiditate maxime animi repellendus iure asperiores explicabo! Minus nemo iure consequatur?</p>
         </div>
       </div>
 
-      <div className="button-nav">
-        <button className="prev"><span className='materials-symbol-outline'>Chevron_Right</span></button>
-        <button className="next"><span className='Arrow'>Chevron_Left</span></button>
+      <div className="header-right">
+        <div className="circle"></div>
+        <div className="header-img">
+          <img src={logo} alt="" />
+        </div>
       </div>
+
     </div>
   );
 };

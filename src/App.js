@@ -11,11 +11,11 @@ const App = () => {
   return (
     <>
       {/* <Sidebar/> */}
-      {/* <Header/> */}
+      <Header/>
       {/* <Testimonials/> */}
       <Magicnav/>
       {/* <Footer/> */}
-      {/* <Hero/> */}
+      <Hero/>
     </>
   );
 }
