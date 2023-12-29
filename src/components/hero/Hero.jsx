@@ -16,7 +16,7 @@ export const Hero = () => {
       <div className="header-right">
         <div className="circle"></div>
         <div className="header-img">
-          <img src={logo} alt="" />
+          {/* <img src={logo} alt="" /> */}
         </div>
       </div>
 
