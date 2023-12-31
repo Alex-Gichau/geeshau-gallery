@@ -20,6 +20,55 @@ export const Hero = () => {
           <h1>Take Your Brand to the Next Level</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, quam ipsa? Facere, voluptatum quisquam. Enim assumenda vel, placeat commodi cupiditate maxime animi repellendus iure asperiores explicabo! Minus nemo iure consequatur?</p> */}
 
+          <div className="container">
+            <h1 className="heading">Gallery Pictures</h1>
+            <Swiper>
+              <SwiperSlide
+              effect={'coverflow'}
+              grabcursor={true}
+              centeredSlides={true}
+              loop={true}
+              slidesPerView={'auto'}
+              coverflowEffect={{
+                rotate:0,
+                stretch:0,
+                depth:100,
+                modifier:2.5,
+              }} className='swiper-container'
+              >
+                <img src={logo} alt="logo"/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img src={logo} alt="logo"/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img src={logo} alt="logo"/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img src={logo} alt="logo"/>
+              </SwiperSlide>
+
+              <SwiperSlide>
+                <img src={logo} alt="logo"/>
+              </SwiperSlide>
+
+              <div className="slider-controller">
+                <div className="swiper-button-prev slider-arrow">
+                  <ion-icon name="arrow-back-outline"></ion-icon>
+                </div>
+                <div className="swiper-button-next slider-arrow">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+                <div className="swiper-pagination"></div>
+
+              </div>
+
+            </Swiper>
+          </div>
           
 
         </div>

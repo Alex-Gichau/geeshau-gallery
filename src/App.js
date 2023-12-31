@@ -6,14 +6,16 @@ import { Footer } from "./components/footer/Footer";
 import { Hero } from './components/hero/Hero';
 import { Header } from './components/header/Header';
 import { Testimonials } from './components/testimonials/Testimonials';
+import { Navigation } from './components/navigation/Navigation';
 
 const App = () => {
   return (
     <>
       {/* <Sidebar/> */}
-      <Header/>
+      {/* <Header/> */}
+      {/* <Navigation/> */}
       {/* <Testimonials/> */}
-      <Magicnav/>
+      {/* <Magicnav/> */}
       {/* <Footer/> */}
       <Hero/>
     </>
