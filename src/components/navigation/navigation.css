@@ -23,35 +23,39 @@
 
 .header {
     width: 100vw;
+    padding: 0.5rem;
     border-bottom: 1px solid gray;
+    /* border: 2px solid red; */
     height: var(--gray-border);
     display: flex;
     align-items: center;
+    background: var(--background);
+    position: fixed;
     justify-content: center;
 }
 
-.menu_wrapper {
+.menu-wrapper {
     display: flex;
-    position: fixed;
     justify-content: space-between;
     z-index: 2;
-    gap: 1.5rem;
     width: 100%;
-    max-width: 60rem;
+    max-width: 80rem;
     padding: 0px 1rem;
     align-items: center;
 }
 
 .menu-bar {
     display: flex;
-    align-items: center;
-    
+    align-items: center;   
+    display: flex;
 }
 
 .logo {
     cursor: pointer;
-    display: flex;
     align-items: center;
+    border: 2px solid red;
+    display: none;
+
 }
 
 .navigation {

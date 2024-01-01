@@ -1,17 +1,18 @@
 import React from 'react';
 import './navigation.css';
+import geeshau from "../../assets/Geeshau-logo.png"
 
 export const Navigation = () => {
   return (
     <div className='wrapper'>
       <header className='header'>
-        <div className='menu_wrapper'>
+        <div className='menu-wrapper'>
           <div className='menu-bar'>
-            <a href='#' title='Home' aria-label='home' className='logo'>
-              <img src='../../assets/Geeshau-logo.png' alt='logo' />
+            <a href='#Home' title='Home' className='logo'>
+              <img src={geeshau} alt='logo' />
             </a>
             <nav>
-              <ul className='navigation-hide'>
+              <ul className='navigation'>
                 <li>
                   <button type='button'>Product</button>
                   <div className='dropdown_wrapper'>
@@ -19,14 +20,15 @@ export const Navigation = () => {
                       <ul className='list-items-with-description'>
                         <li>
                           <div className='icon-wrapper'>
-                            <span className='materials-symbols-outline'>
-                              Home
+                            <span className='materials-symbol-outline'>
+                              <p>Home</p>
                             </span>
                           </div>
                           <div className='item-title'>
                             <h3>Database</h3>
                             <p>Fully portable postgres</p>
                           </div>
+
                         </li>
                       </ul>
                     </div>
@@ -40,7 +42,7 @@ export const Navigation = () => {
               </ul>
             </nav>
           </div>
-          <div className='action-buttons-hide'>
+          <div className='action-buttons'>
             <a href='#log-in' title='Log in' className='secondary'>
               Sign In
             </a>
