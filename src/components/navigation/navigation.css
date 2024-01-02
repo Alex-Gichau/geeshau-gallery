@@ -102,8 +102,9 @@
 
 .dropdown {
     border-radius: 8px;
-    display: none;
+    /* display: none; */
     padding: 8px;
+    margin-left: 5rem;
     width: 100%;
     max-width: 600px;
     border: 1px solid var(--gray-border);
@@ -127,13 +128,42 @@
 
 }
 
+.list-items-with-description li:hover {
+    background: var(--secondary);
+    border-radius: 6px;
+    color: var(--text);
+    
+}
+
+.list-items-with-description li:hover svg{
+    color: var(--text);
+    
+}
+
+.list-items-with-description li .icon-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    height: 2.5rem;
+    width: 2.5rem;
+    min-width: 2.5rem;
+    min-height: 2.5rem;
+    pointer-events: all;
+    background-color: var(--gray-menu-button-hover);
+}
+
+.list-items-with-description li:hover .item-title p {
+    color: var(--gray-text-hover);
+}
+
 .navigation>li>button {
     color:var(--text);
     transition: all 0.3s ease;
     text-decoration: none;
     border: none;
     cursor: pointer;
-    z-index: 1;
     margin-right: -4px;
     align-items: center;
     min-height: 36px;
@@ -168,32 +198,13 @@
     display: block;
 }
 
-.list-items-with-description li:hover {
-    background: var(--secondary-background);
-    border-radius: 6px;
-}
+
 
 .icon-wrapper svg {
     color:var(--gray-text-hover);
 }
 
-.list-items-with-description li:hover svg{
-    color: var(--text);
-}
 
-.list-items-with-description li .icon-wrapper{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 0.5rem;
-    padding: 0.5rem;
-    height: 2.5rem;
-    width: 2.5rem;
-    min-width: 2.5rem;
-    min-height: 2.5rem;
-    pointer-events: all;
-    background-color: var(--gray-menu-button-hover);
-}
 
 .item-title {
     gap: 0.5rem;
@@ -205,9 +216,7 @@
     color: var(--text);
 }
 
-.list-items-with-description li:hover .item-title p {
-    color: var(--gray-text-hover);
-}
+
 
 .item-title p {
     font-size: 12px;

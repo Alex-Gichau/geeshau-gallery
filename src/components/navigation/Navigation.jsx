@@ -13,6 +13,16 @@ export const Navigation = () => {
             </a>
             <nav>
               <ul className='navigation'>
+              <li>
+                  <a href='#devs' title='Developers'>
+                    Developers
+                  </a>
+                </li>
+                <li>
+                  <a href='#devs' title='Developers'>
+                    Developers
+                  </a>
+                </li>
                 <li>
                   <button type='button'>Product</button>
                   <div className='dropdown_wrapper'>
@@ -20,25 +30,54 @@ export const Navigation = () => {
                       <ul className='list-items-with-description'>
                         <li>
                           <div className='icon-wrapper'>
-                            <span className='materials-symbol-outline'>
-                              <p>Home</p>
+                            <span className='icon'>
+                              <ion-icon>Home</ion-icon>
                             </span>
                           </div>
                           <div className='item-title'>
                             <h3>Database</h3>
                             <p>Fully portable postgres</p>
                           </div>
-
                         </li>
+                        <li>
+                          <div className='icon-wrapper'>
+                            <span className='icon'>
+                              <ion-icon>Home</ion-icon>
+                            </span>
+                          </div>
+                          <div className='item-title'>
+                            <h3>Database</h3>
+                            <p>Fully portable postgres</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='icon-wrapper'>
+                            <span className='icon'>
+                              <ion-icon>Home</ion-icon>
+                            </span>
+                          </div>
+                          <div className='item-title'>
+                            <h3>Database</h3>
+                            <p>Fully portable postgres</p>
+                          </div>
+                        </li>
+                        <li>
+                          <div className='icon-wrapper'>
+                            <span className='icon'>
+                              <ion-icon>Home</ion-icon>
+                            </span>
+                          </div>
+                          <div className='item-title'>
+                            <h3>Database</h3>
+                            <p>Fully portable postgres</p>
+                          </div>
+                        </li>
+                        
                       </ul>
                     </div>
                   </div>
                 </li>
-                <li>
-                  <a href='#devs' title='Developers'>
-                    Developers
-                  </a>
-                </li>
+                
               </ul>
             </nav>
           </div>
