@@ -59,13 +59,14 @@ hr {
     width: 100px;
     height: 100px;
     object-fit:cover;
-    transition: 100ms;
+    transition: 200ms;
 }
 
 .card-item:hover {
     scale: 1.05;
     transition: 100ms;
     margin: 0 8px;
+    box-shadow: ;
 
 }
 
