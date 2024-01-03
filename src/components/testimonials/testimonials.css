@@ -65,6 +65,7 @@ hr {
 .card-item:hover {
     scale: 1.05;
     transition: 100ms;
+    margin: 0 8px;
 
 }
 
