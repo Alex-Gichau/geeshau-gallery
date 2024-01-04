@@ -53,3 +53,26 @@
     transform: rotate(360deg);
   }
 }
+
+.grid-item-1 {grid-area: header }
+.grid-item-2 {grid-area: sidebar }
+.grid-item-3 {grid-area: hero }
+.grid-item-4 {grid-area: testimonials }
+.grid-item-5 {grid-area: footer }
+
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header header header header header'
+  'sidebar hero hero hero hero testimonials'
+  'footer footer footer footer footer footer'  
+  ;
+  /* gap: 10px;
+  padding: 2px; */
+
+}
+
+.grid-container > div {
+  background: cyan;
+
+}
