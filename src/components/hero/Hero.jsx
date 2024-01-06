@@ -16,11 +16,11 @@ export const Hero = () => {
       <div className="products">
         <div className="product-container">
           {productsData.map((productsData) => (
-            <li className="product-item" key={productsData.itemCode}>
+            <li className="product-card" key={productsData.itemCode}>
                 <img src='../../assets/sample.JPG' alt=''/>
               <p className="item-name">{productsData.products}</p>
               <p className="product-description">{productsData.description}</p>
-              <p className="charges">{productsData.sellingPrice}</p>
+              <p className="charges">Kes. {productsData.sellingPrice}</p>
               <p className="product-code">{productsData.itemCode}</p>
               <button>Order Now</button>
             </li>

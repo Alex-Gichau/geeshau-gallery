@@ -1,5 +1,5 @@
 .hero-container {
-    height: 100vh;
+    /* height: 200vh; */
     padding: 2px;
     overflow: hidden;    
 
@@ -32,19 +32,44 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    width: 85vw;
     overflow: hidden;
     justify-content: center;
+    gap: 5px;
     
 }
 
-.product-item {
-    border: 2px solid orange;
+.product-card {
     max-height: max-content;
     width: 20em;
+    border-radius: 0.5rem;
+    background: rgb(237, 237, 237);
+    padding: 1em;
 }
 
-.product-item>img {
-    background-image: url("https://images.creativemarket.com/0.1.0/ps/9506928/1920/1318/m1/fpnw/wm0/web-banner-design-templates-bundle-cover-.jpg?1606809617&s=da1a89bcbd1a83ff7ed4352635f23f7b");
+.product-card>img {
+    aspect-ratio: 1/1;
+    background-image: url(../../assets/sample.JPG);
+    border-radius: 1em;
+}
+
+.product-card .item-name {
+    font-weight: 800;
+    font-size: 1.2em;
+}
+
+.product-card .product-description {
+    line-height: 1.5;
+}
+
+.product-card .charges {
+    background: rgb(184, 184, 184);
+    width: 10em;
+    text-align: center;
+    font-weight: 900;
+}
+
+.product-card>img {
     object-fit: cover;
 }
 
@@ -52,3 +77,4 @@
     display: none;
 
 }
+
