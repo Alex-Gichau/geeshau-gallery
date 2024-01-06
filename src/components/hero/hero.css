@@ -19,7 +19,6 @@
 .banner-wrapper {
     overflow: hidden;
     
-
 }
 
 /* .banner-wrapper>img:hover {
@@ -49,3 +48,7 @@
     object-fit: cover;
 }
 
+::-webkit-scrollbar {
+    display: none;
+
+}
