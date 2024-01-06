@@ -9,7 +9,7 @@ export const Navigation = () => {
         <div className='menu-wrapper'>
           <div className='menu-bar'>
             <a href='#Home' title='Home' className='logo'>
-              <img src={geeshau} alt='logo' />
+              <img src={geeshau} alt='logo' /> 
             </a>
             <nav>
               <ul className='navigation'>
