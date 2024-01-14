@@ -33,7 +33,6 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 85vw;
     overflow: hidden;
     justify-content: center;
     gap: 5px;
@@ -41,19 +40,20 @@
 }
 
 .product-card {
-    max-height: max-content;
-    width: 20em;
+    max-height: 25em;
+    width: 25em;
     border-radius: 0.5rem;
     background: rgb(237, 237, 237);
-    padding: 1em;
-    border: 0.5px solid gray;
+    gap:0.5rem;
+    padding: 0.6rem;
+    border: 0.5px solid rgba(128, 128, 128, 0.485);
 
 }
 
 .product-card>img {
-    aspect-ratio: 1/1;
+    aspect-ratio: 1/0.6;
     background-image: url(../../assets/sample.JPG);
-    border-radius: 1em;
+    border-radius: 0.7em;
 }
 
 .product-card .item-name {
@@ -74,6 +74,7 @@
 
 .product-card>img {
     object-fit: cover;
+    
 }
 
 ::-webkit-scrollbar {
