@@ -59,6 +59,7 @@
 .product-card .item-name {
     font-weight: 800;
     font-size: 1.2em;
+
 }
 
 .product-card .product-description {
@@ -75,6 +76,22 @@
 .product-card>img {
     object-fit: cover;
     
+}
+
+.format {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    
+}
+
+.product-card .format-type {
+    background-color: rgba(132, 255, 132, 0.66);
+    width: max-content;
+    padding: 0rem 0.7rem;
+    display: flex;
+    border-radius: 18px;
+    color: rgb(12, 100, 12);
 }
 
 ::-webkit-scrollbar {

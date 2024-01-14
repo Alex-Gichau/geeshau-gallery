@@ -8,7 +8,10 @@
         "markupSave": 3856.9999999999995,
         "balanceexpense": 1653.0000000000005,
         "dollarRates": 35,
-        "itemCode": "GESPROD2"
+        "itemCode": "GESPROD2",
+        "formats-1":"PDF",
+        "formats-2":"JPG",
+        "formats-3":"PNG"
     },
     {
         "products": "2D animations (10 min)",

@@ -19,6 +19,11 @@ export const Hero = () => {
             <li className="product-card" key={productsData.itemCode}>
                 <img src='../../assets/sample.JPG' alt=''/>
               <p className="item-name">{productsData.products}</p>
+              <ul className="format">
+                <li className="format-type">{productsData.formats-1}</li>
+                <li className="format-type">{productsData.formats-2}</li>
+                <li className="format-type">{productsData.formats-3}</li>
+              </ul>
               <p className="product-description">{productsData.description}</p>
               <p className="charges">Kes. {productsData.sellingPrice}</p>
               <p className="product-code">{productsData.itemCode}</p>
