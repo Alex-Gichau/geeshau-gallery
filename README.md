@@ -1,4 +1,11 @@
-### Geeshau Art profile
+### Geeshau Art Webplatform
+## Features
+1. Products & Products details
+2. Invoice Generator / Pricing
+3. Time taken (hrs) : Estimate duration taken to deliver specific item. Will allow estimate slots available for booking to do the work. 
+
+
+
 Business Profile site with HTML, CSS &amp; Javascript
 * Follow through with: https://youtu.be/--XrIa-iey0 
 `Javascript Development`
