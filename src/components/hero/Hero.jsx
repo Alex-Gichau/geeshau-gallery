@@ -25,13 +25,12 @@ export const Hero = () => {
               <p className="product-description">{productsData.description}</p>
               <hr/>
               <div className="card-footer">
-                
                 <p className="charges">Kes. {productsData.sellingPrice}</p>
-
                 <ul className="format">
                   <li className="format-type">{productsData.formats - 1}</li>
                   <li className="format-type">{productsData.formats - 2}</li>
                   <li className="format-type">{productsData.formats - 3}</li>
+                  <li className="charges">Takes 3Hours</li>
                 </ul>
               </div>
 
