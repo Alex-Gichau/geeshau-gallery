@@ -1,3 +1,4 @@
+/* Hero page Wrapper */
 .hero-container {
     /* height: 200vh; */
     padding: 2px;
@@ -6,10 +7,12 @@
 
 }
 
+/* Hero Image Container */
 .hero-banner {
     overflow: hidden;
 }
 
+/* Hero Image Properties */
 .hero-banner img {
     width: 100%;
     height: 20rem;
@@ -17,6 +20,7 @@
     transition: 200ms;
 }
 
+/* Hero Image Container Wrapper */
 .banner-wrapper {
     overflow: hidden;
     
@@ -28,7 +32,7 @@
 
 } */
 
-
+/* Container with all product cards */
 .product-container {
     display: flex;
     flex-direction: row;
@@ -39,6 +43,7 @@
     
 }
 
+/* Cards for each listed product */
 .product-card {
     height: 25em;
     width: 25em;
@@ -51,6 +56,7 @@
 
 }
 
+/* Product Item Name & Item Code in the card */
 .product-title-container {
     display: flex;
     flex-direction: row;
@@ -58,33 +64,34 @@
     gap: 1em;
 }
 
+/* Product Image properties */
 .product-card>img {
     aspect-ratio: 1/0.6;
     background-image: url(../../assets/sample.JPG);
     border-radius: 0.7em;
+    object-fit: cover;
 }
 
+/* Product Name Text properties */
 .product-card .item-name {
     font-weight: 800;
     font-size: 1.2em;
 
 }
 
+/* Product Description Text properties */
 .product-card .product-description {
     line-height: 1.5;
 }
 
+/* Product Charges Text properties */
 .product-card .charges {
     width: 10em;
     text-align: center;
     font-weight: 400;
 }
 
-.product-card>img {
-    object-fit: cover;
-    
-}
-
+/* Product Footer Wrapper properties */
 .card-footer {
     display: flex;
     flex-direction: row;
@@ -92,6 +99,7 @@
     align-items: left;
 }
 
+/* Product Code Text properties */
 .product-container .product-code {
     background-color: rgb(187, 187, 187);
     width: max-content;
@@ -103,6 +111,7 @@
 
 }
 
+/* Product Format Types Wrapper properties */
 .format {
     display: flex;
     flex-direction: row;
@@ -110,6 +119,7 @@
     
 }
 
+/* Product Card Format Types Text Properties */
 .product-card .format-type {
     background-color: rgba(132, 255, 132, 0.66);
     width: max-content;
@@ -119,6 +129,12 @@
     color: rgb(12, 100, 12);
 }
 
+
+.product-card ul li:nth-child(4) {
+    
+}
+
+/* Hero Page Scrollbar properties */
 ::-webkit-scrollbar {
     width: 2px;
 

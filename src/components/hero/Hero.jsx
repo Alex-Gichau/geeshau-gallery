@@ -30,7 +30,7 @@ export const Hero = () => {
                   <li className="format-type">{productsData.formats - 1}</li>
                   <li className="format-type">{productsData.formats - 2}</li>
                   <li className="format-type">{productsData.formats - 3}</li>
-                  <li className="charges">Takes 3Hours</li>
+                  <li className="format-type">3Hours</li>
                 </ul>
               </div>
 
