@@ -1,3 +1,5 @@
+/* All root element variables for the app including colors, spacing and margins */
+
 :root {
   --primary-background:#fff;
   --border-radius:15px;
@@ -13,14 +15,20 @@
 
 }
 
+/* All default properties of every element */
 * {
   font-family: var(--font-family);
 }
 
+/* Default properties for every page */
 .App {
   text-align: center;
+  scroll-margin: smooth;
+  scrollbar-color: var(--theme-color-orange);
+  scrollbar-width: .2rem;
 }
 
+/* Logo that  */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -54,6 +62,8 @@
   }
 }
 
+
+/* Grid layout of the Homepage */
 .grid-item-1 {grid-area: header }
 .grid-item-2 {grid-area: sidebar }
 .grid-item-3 {grid-area: hero }
@@ -72,7 +82,7 @@
 
 }
 
-.grid-container > div {
-  /* background: cyan; */
+/* .grid-container > div {
+  /* background: cyan;
 
-}
+} */

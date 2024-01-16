@@ -1,7 +1,6 @@
 import React from 'react';
 import './hero.css';
 import logo from "../../assets/Geeshau-logo.png";
-import banner from "../../assets/sample.JPG";
 import productsData from "./productsData.json";
 
 export const Hero = () => {
@@ -9,7 +8,6 @@ export const Hero = () => {
     <div className='hero-container'>
       <div className="hero-banner">
         <div className="banner-wrapper">
-          <img src={banner} alt="" />
         </div>
       </div>
 
@@ -25,7 +23,7 @@ export const Hero = () => {
               <p className="product-description">{productsData.description}</p>
               <hr/>
               <div className="card-footer">
-                <p className="charges">Kes. {productsData.sellingPrice}</p>
+                <p className="charges">{productsData.sellingPrice}</p>
                 <ul className="format">
                   <li className="format-type">{productsData.formats - 1}</li>
                   <li className="format-type">{productsData.formats - 2}</li>

@@ -14,7 +14,7 @@ const App = () => {
     <>
     <div className='grid-container'>
       {/* <div className='grid-item-1'><Header/></div> */}
-      <div className='grid-item-1'><Navigation/></div>
+      {/* <div className='grid-item-1'><Navigation/></div> */}
       {/* <div className='grid-item-2'><Sidebar/></div> */}
       <div className='grid-item-3'><Hero/></div>
       {/* <div className='grid-item-4'><Ratings/></div> */}

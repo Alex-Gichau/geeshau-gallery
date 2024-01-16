@@ -1,23 +1,25 @@
 /* Hero page Wrapper */
 .hero-container {
-    /* height: 200vh; */
-    padding: 2px;
     overflow: hidden; 
-    border: 0.5px solid gray;
-
+    margin-bottom: 4rem;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 30em, rgba(238,238,238,1) 40em, rgba(255,255,255,1) 45%, rgba(215,215,215,1) 60%, rgba(255,238,220,1) 77%, rgba(255,255,255,1) 100%), url("../../assets/sample.JPG");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width:98.89vw;
 }
 
 /* Hero Image Container */
 .hero-banner {
     overflow: hidden;
+    
 }
 
 /* Hero Image Properties */
 .hero-banner img {
-    width: 100%;
     height: 20rem;
     object-fit: cover;
     transition: 200ms;
+
 }
 
 /* Hero Image Container Wrapper */
@@ -35,6 +37,7 @@
 /* Container with all product cards */
 .product-container {
     display: flex;
+    margin-top: 80vh;
     flex-direction: row;
     flex-wrap: wrap;
     overflow: hidden;
@@ -89,6 +92,11 @@
     width: 10em;
     text-align: center;
     font-weight: 400;
+    font-family: monospace;
+}
+
+.product-card .charges::before{
+    content: "Kes."
 }
 
 /* Product Footer Wrapper properties */
@@ -127,17 +135,6 @@
     display: flex;
     border-radius: 18px;
     color: rgb(12, 100, 12);
-}
-
-
-.product-card ul li:nth-child(4) {
-    
-}
-
-/* Hero Page Scrollbar properties */
-::-webkit-scrollbar {
-    width: 2px;
-
 }
 
 button {
