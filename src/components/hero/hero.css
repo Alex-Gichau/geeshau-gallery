@@ -2,9 +2,10 @@
 .hero-container {
     overflow: hidden; 
     margin-bottom: 4rem;
-    background: linear-gradient(180deg, rgba(255,255,255,0) 30em, rgba(238,238,238,1) 40em, rgba(255,255,255,1) 45%, rgba(215,215,215,1) 60%, rgba(255,238,220,1) 77%, rgba(255,255,255,1) 100%), url("../../assets/sample.JPG");
+    background: linear-gradient(180deg, rgba(255,255,255,0) 30em, rgba(238,238,238,1) 40em, rgba(255,255,255,1) 45%, rgba(215,215,215,1) 60%, rgba(255,238,220,1) 77%, rgba(255,255,255,1) 100%), url("https://mir-s3-cdn-cf.behance.net/projects/404/1acf6e140736935.Y3JvcCwzMTcwLDI0ODAsMTY0LDA.jpg");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100vw;
+    background-position-y:-10em;
     width:98.89vw;
 }
 
