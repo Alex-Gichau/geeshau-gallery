@@ -19,7 +19,7 @@ const App = () => {
       {/* <div className='grid-item-2'><Sidebar/></div> */}
       <div className='grid-item-3'><ProductDetails/></div>
       {/* <div className='grid-item-4'><Ratings/></div> */}
-      <div className='grid-item-5'><Footer/></div>
+      {/* <div className='grid-item-5'><Footer/></div> */}
       
       </div>
     </>
