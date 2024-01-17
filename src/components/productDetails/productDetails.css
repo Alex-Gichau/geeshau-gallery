@@ -1,0 +1,20 @@
+/* Page Wrapper properties */
+.details-wrapper {
+    height: 100vh;
+    text-align: center;
+    margin: 2rem;
+
+}
+
+/* Header Title properties */
+.details-wrapper>h1 {
+    font-weight: 200;
+}
+
+/* Image Container properties */
+.product-image-container {
+    display: flex;
+    width: 90vw;
+    margin-top: 2em;
+}
+
