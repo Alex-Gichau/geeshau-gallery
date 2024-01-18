@@ -1,8 +1,14 @@
 import React from 'react'
+import {Link, useParams} from "react-router-dom"
+import productsData from "../hero/productsData.json"
 import "./productDetails.css"
 // import { Footer } from "../footer/Footer"
 
 export const ProductDetails = () => {
+  const {productID} = useParams();
+  const product = productsData.find((product) => productsData.itemCode === productID);
+  const { description } = product;
+
   return (
     <div className="details-wrapper">
       <h1>Product Details</h1>
@@ -22,9 +28,7 @@ export const ProductDetails = () => {
       <div className="product-details">
         <h1>Product Description</h1>
         <hr/>
-        <p className="desc-paragraph">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illo perspiciatis doloribus? Numquam maiores, sed enim ea, dolor quae, deleniti tempora a est quas corrupti soluta eos dolorum dicta illum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illo perspiciatis doloribus? Numquam maiores, sed enim ea, dolor quae, deleniti tempora a est quas corrupti soluta eos dolorum dicta illum.Lorem ipsum dolor sit amet consectetur adipisicing elit. Est illo perspiciatis doloribus? Numquam maiores, sed enim ea, dolor quae, deleniti tempora a est quas corrupti soluta eos dolorum dicta illum.
-        </p>
+        <p className="desc-paragraph">{description}</p>
         
       </div>
       </div>

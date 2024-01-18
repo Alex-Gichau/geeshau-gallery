@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from "react-router-dom"
 import './hero.css';
-import logo from "../../assets/Geeshau-logo.png";
+// import logo from "../../assets/Geeshau-logo.png";
 import productsData from "./productsData.json";
 
 export const Hero = () => {
@@ -12,8 +13,10 @@ export const Hero = () => {
       </div>
 
       <div className="products">
+        
         <div className="product-container">
           {productsData.map((productsData) => (
+            <Link to={`/productsdetails/${productsData.itemCode}`}>
             <li className="product-card" key={productsData.itemCode}>
               <img src='../../assets/sample.JPG' alt='' />
               <div className="product-title-container">
@@ -34,7 +37,9 @@ export const Hero = () => {
 
               <button>Order Now</button>
             </li>
-          ))}
+            </Link>
+          )
+          )}
 
         </div>
       </div>
