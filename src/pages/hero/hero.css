@@ -1,12 +1,13 @@
 /* Hero page Wrapper */
 .hero-container {
-    overflow: hidden; 
-    margin-bottom: 4rem;
+    padding: 0;
+    margin: 0;
     background: linear-gradient(180deg, rgba(255,255,255,0) 30em, rgba(238,238,238,1) 40em, rgba(255,255,255,1) 45%, rgba(215,215,215,1) 60%, rgba(255,238,220,1) 77%, rgba(255,255,255,1) 100%), url("https://mir-s3-cdn-cf.behance.net/projects/404/1acf6e140736935.Y3JvcCwzMTcwLDI0ODAsMTY0LDA.jpg");
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position-y:-10em;
     width:100vw;
+    border: 2px solid red;
 }
 
 /* Hero Image Container */

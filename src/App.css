@@ -23,9 +23,7 @@
 /* Default properties for every page */
 .App {
   text-align: center;
-  scroll-margin: smooth;
-  scrollbar-color: var(--theme-color-orange);
-  scrollbar-width: .2rem;
+  
 }
 
 /* Logo that  */
