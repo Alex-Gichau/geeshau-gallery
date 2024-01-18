@@ -72,7 +72,7 @@
 
 .grid-container {
   display: grid;
-  grid-template-areas: 
+  grid-template-areas:
   'header header header header header header'
   'sidebar hero hero hero hero testimonials'
   'footer footer footer footer footer footer'  

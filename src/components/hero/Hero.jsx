@@ -16,7 +16,7 @@ export const Hero = () => {
         
         <div className="product-container">
           {productsData.map((productsData) => (
-            <Link to={`/productsdetails/${productsData.itemCode}`}>
+            <Link to={`/${productsData.itemCode}`}>
             <li className="product-card" key={productsData.itemCode}>
               <img src='../../assets/sample.JPG' alt='' />
               <div className="product-title-container">

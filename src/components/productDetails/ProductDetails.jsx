@@ -5,9 +5,9 @@ import "./productDetails.css"
 // import { Footer } from "../footer/Footer"
 
 export const ProductDetails = () => {
-  const {productID} = useParams();
-  const product = productsData.find((product) => productsData.itemCode === productID);
-  const { description } = product;
+  const { productItemCode } = useParams();
+  const product = productsData.find((productsData) => productsData.itemCode === productItemCode);
+  const { products,description,sellingPrice,itemCode } = product;
 
   return (
     <div className="details-wrapper">
@@ -26,9 +26,10 @@ export const ProductDetails = () => {
         </div>
       </div>
       <div className="product-details">
-        <h1>Product Description</h1>
+        <h1>{products}</h1>
         <hr/>
         <p className="desc-paragraph">{description}</p>
+        <p className="BackHome"><Link to="/">Back To Home</Link></p>
         
       </div>
       </div>
