@@ -14,13 +14,12 @@ export const Hero = () => {
       <div className="products">
         <div className="product-container">
           {productsData.map((productsData) => (
-              <li className="product-card" key={productsData.itemCode}>
-                <img src='../../assets/sample.JPG' alt='' />
+            <Link to={`/${productsData.itemCode}`} key={productsData.itemCode} className='product-link-wrapper'>
+              <li className="product-card">
+                <div className="product-img"/>
                 <div className="product-title-container">
                   <p className="product-code">{productsData.itemCode}</p>
-                  <Link to={`/${productsData.itemCode}`}>
                   <p className="item-name">{productsData.products}</p>
-                  </Link>
                 </div>
                 <p className="product-description">{productsData.description}</p>
                 <hr />
@@ -34,6 +33,7 @@ export const Hero = () => {
                   </ul>
                 </div>
               </li>
+            </Link>
           )
           )}
 
