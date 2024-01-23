@@ -4,13 +4,22 @@
     background-repeat: no-repeat;
     background-size: 100vw;
     background-position-y:-10em;
-    border: 2px solid red;
 }
 
 /* Hero Image Container */
 .hero-banner {
     overflow: hidden;
     
+}
+
+/* Product Search Bar  */
+.search-bar {
+    width: 90vw;
+    margin: 1em;
+    height: 2em;
+    border-radius: .5em;
+    background-color: white;
+    padding: 1em;
 }
 
 /* Hero Image Properties */
@@ -34,14 +43,14 @@
     flex-wrap: wrap;
     gap: 0.5em;
     justify-content: center;
-    margin-top: 80vh;
+    margin-top: 70vh;
     overflow: hidden;
+    padding: 0.5em;
     
 }
 
 .product-container {
-    list-style-type: none;
-    
+    list-style-type: none;    
     
 }
 
@@ -52,6 +61,7 @@
     border-radius: 0.5rem;
     background: rgb(237, 237, 237);
     place-content: center;
+    overflow: hidden;
     padding: 0.6rem;
     border: 0.5px solid rgba(128, 128, 128, 0.485);
 
@@ -59,7 +69,7 @@
 
 /* Product Card hover effects */
 .product-card:hover {
-    transform: translate(2px 2px);
+    transform: translate(1px 1px);
     transition:ease-in-out;
     transition-duration: 200ms;
     margin: 0 0.5em;
@@ -128,7 +138,6 @@
     display: flex;
     flex-direction: row;
     align-items: left;
-    scale: 0.7;
 }
 
 /* Product Code Text properties */
@@ -147,8 +156,9 @@
 .format {
     display: flex;
     flex-direction: row;
-    align-items: left;
     gap: 0.2rem;
+    text-align: left;
+    scale: 0.8;
     
 }
 

@@ -18,6 +18,7 @@
 /* All default properties of every element */
 * {
   font-family: var(--font-family);
+  margin: 0;
 }
 
 /* Default properties for every page */

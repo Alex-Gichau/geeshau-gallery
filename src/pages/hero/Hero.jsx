@@ -13,6 +13,7 @@ export const Hero = () => {
 
       <div className="products">
         <div className="product-container">
+        <div className="search-bar"></div>
           {productsData.map((productsData) => (
             <Link to={`/${productsData.itemCode}`} key={productsData.itemCode} className='product-link-wrapper'>
               <li className="product-card">
