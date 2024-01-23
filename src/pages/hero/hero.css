@@ -64,35 +64,42 @@
     overflow: hidden;
     padding: 0.6rem;
     border: 0.5px solid rgba(128, 128, 128, 0.485);
+    transition: ease-in-out 100ms;
 
 }
 
 /* Product Card hover effects */
 .product-card:hover {
     transform: translate(1px 1px);
-    transition:ease-in-out;
-    transition-duration: 200ms;
+    transition:ease-in-out 100ms;
     margin: 0 0.5em;
     border: none;
     box-shadow:
     inset 0 -3em 3em rgba(177, 177, 177, 0.3),
-    0 0 0 2px white,
+    0 0 0 0.5px gray,
     0.3em 0.3em 1em rgba(115, 115, 115, 0.6);
+
+    .product-charge {
+        background-color: orange;
+        color: white;
+        transition: ease-in-out 100ms;
+    }
 
 }
 
-/* Product Item Name & Item Code in the card */
+/* Product Item Name & Item Charge in the card */
 .product-title-container {
     display: flex;
     flex-direction: column;
     align-items: left;
-    margin-top: -1.4em;
+    margin-top: -2.2em;
 
 }
 
-.product-code, .card-footer, .item-name {
+.product-charge, .card-footer, .item-name {
     padding: 0.5em 0;
     overflow: hidden;
+    transition: ease-in-out 250ms;
 }
 
 /* Product Image properties */
@@ -107,6 +114,13 @@
 .product-card .item-name {
     font-weight: 800;
     font-size: 1.2em;
+
+}
+
+.date {
+    font-weight: 200;
+    font-size:small;
+    border: 2px solid red;
 
 }
 
@@ -129,14 +143,15 @@
 }
 
 /* Product Charges Text properties */
-.product-card .charges {
+.product-card .product-charge {
     text-align: right;
-    font-weight: 400;
+    font-weight: 500;
+    
     
 }
 
-.product-card .charges::before{
-    content: "Kes."
+.product-card .product-charge::before{
+    content: "Kes.";
 }
 
 /* Product Footer Wrapper properties */
@@ -144,40 +159,43 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    padding: 0.9em 0;
+    border: 2px solid red;
 }
 
-/* Product Code Text properties */
-.product-container .product-code {
+/* Product charge Text properties */
+.product-container .product-charge {
     background-color: rgb(187, 187, 187);
     width: max-content;
     padding: 0rem 0.7rem;
     display: flex;
-    border-radius: 25rem;
+    border-radius: 0.4rem;
     color: rgb(0, 0, 0,0.8);
     scale: 0.7;
+    padding: 0.4em;
 
 }
 
 /* Product Format Types Wrapper properties */
 .format {
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    gap: 0.2rem;
-    flex-wrap: wrap;
-    text-align: left;
-    scale: 0.8;
+    gap: 0.4em;
+    align-content: center;
+    justify-items: center;
+    border: 2px solid rgb(0, 255, 26);
     
 }
 
 /* Product Card Format Types Text Properties */
 .product-card .format-type {
     background-color: rgba(132, 255, 132, 0.66);
-    width: max-content;
-    padding: 0rem 0.7rem;
-    display: flex;
-    border-radius: 55em;
     color: rgb(12, 100, 12);
+    border: 2px solid rgb(8, 0, 255);
+    list-style-type: none;
+    font-size: small;
+    padding: 0 0.5em;
+    border-radius: 10em;
 }
 
 button {

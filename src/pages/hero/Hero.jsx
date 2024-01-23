@@ -21,13 +21,13 @@ export const Hero = () => {
               <li className="product-card">
                 <div className="product-img"/>
                 <div className="product-title-container">
-                  <p className="product-code">{productsData.itemCode}</p>
+                  <p className="product-charge">{productsData.sellingPrice}</p>
                   <p className="item-name">{productsData.products}</p>
                 </div>
                 <p className="product-description">{productsData.description}</p>
-                <hr />
+                {/* <hr /> */}
                 <div className="card-footer">
-                  <p className="charges">{productsData.sellingPrice}</p>
+                  <p className="date">2 days ago</p>
                   <ul className="format">
                     <li className="format-type">JPG</li>
                     <li className="format-type">PNG</li>
