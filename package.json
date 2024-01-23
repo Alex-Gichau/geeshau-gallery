@@ -20,7 +20,7 @@
   },
   "scripts": {
     "start": "npm start",
-    "build": "npm run build",
+    "build": "npm run --save dev",
     "test": "npm run test",
     "eject": "npm eject"
   },
