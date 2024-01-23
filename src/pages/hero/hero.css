@@ -30,27 +30,27 @@
 /* Container with all product cards */
 .product-container {
     display: flex;
-    margin-top: 80vh;
     flex-direction: row;
     flex-wrap: wrap;
-    overflow: hidden;
+    gap: 0.5em;
     justify-content: center;
+    margin-top: 80vh;
+    overflow: hidden;
     
 }
 
 .product-container {
     list-style-type: none;
-    text-decoration: none;
+    
     
 }
 
 /* Cards for each listed product */
 .product-card {
-    height: 25em;
-    width: 25em;
+    height: max-content;
+    width: 18em;
     border-radius: 0.5rem;
     background: rgb(237, 237, 237);
-    gap:0.5rem;
     place-content: center;
     padding: 0.6rem;
     border: 0.5px solid rgba(128, 128, 128, 0.485);
@@ -60,9 +60,9 @@
 /* Product Item Name & Item Code in the card */
 .product-title-container {
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 1em;
+    flex-direction: column;
+    align-items: left;
+    margin-top: -2.5em;
 }
 
 /* Product Image properties */
