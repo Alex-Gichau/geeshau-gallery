@@ -13,7 +13,9 @@ export const Hero = () => {
 
       <div className="products">
         <div className="product-container">
-        <div className="search-bar"></div>
+        <div className="search-bar">
+
+        </div>
           {productsData.map((productsData) => (
             <Link to={`/${productsData.itemCode}`} key={productsData.itemCode} className='product-link-wrapper'>
               <li className="product-card">
@@ -27,10 +29,9 @@ export const Hero = () => {
                 <div className="card-footer">
                   <p className="charges">{productsData.sellingPrice}</p>
                   <ul className="format">
-                    <li className="format-type">{productsData.formats - 1}</li>
-                    <li className="format-type">{productsData.formats - 2}</li>
-                    <li className="format-type">{productsData.formats - 3}</li>
-                    <li className="format-type">3Hours</li>
+                    <li className="format-type">JPG</li>
+                    <li className="format-type">PNG</li>
+                    <li className="format-type">PDF</li>
                   </ul>
                 </div>
               </li>

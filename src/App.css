@@ -19,6 +19,7 @@
 * {
   font-family: var(--font-family);
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 /* Default properties for every page */
@@ -85,3 +86,16 @@
   /* background: cyan;
 
 } */
+
+::-webkit-scrollbar {
+  width: 0.4em;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: orange;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(210, 210, 210);
+}
+
