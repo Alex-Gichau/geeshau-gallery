@@ -2,7 +2,7 @@ import React from 'react'
 import {Link, useParams} from "react-router-dom"
 import productsData from "../hero/productsData.json"
 import "./productDetails.css"
-// import { Footer } from "../footer/Footer"
+import { Footer } from "../../components/footer/Footer"
 
 export const ProductDetails = () => {
   const { productItemCode } = useParams();
@@ -33,16 +33,7 @@ export const ProductDetails = () => {
         
       </div>
       </div>
+      <Footer/>
     </div>
   )
 }
-
-// const Footer = () => {
-//   return (
-//     <>
-//     <div><Footer/></div>
-//     </>
-//   );
-// }
-
-// export default Footer;

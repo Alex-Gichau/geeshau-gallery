@@ -246,15 +246,6 @@
         "itemCode": "GESPROD25"
     },
     {
-        "products": "Black Aluco Board",
-        "description": "Full board for 3D signages",
-        "sellingPrice": 3500,
-        "profitPerPiece": " ",
-        "markupSave": " ",
-        "balanceexpense": " ",
-        "itemCode": "GESPROD26"
-    },
-    {
         "products": "Book Cover Design",
         "description": "Design your book to match your audience ",
         "sellingPrice": 350,
@@ -830,22 +821,6 @@
         "markupSave": 1400,
         "balanceexpense": 600,
         "itemCode": "GESPROD87"
-    },
-    {
-        "products": "Signage Labour Cost",
-        "description": "Labour totals to 40% of the Total",
-        "profitPerPiece": " ",
-        "markupSave": " ",
-        "balanceexpense": " ",
-        "itemCode": " "
-    },
-    {
-        "products": "Signage Metal Welding",
-        "description": "Frame welding for your 3D signage design 1m x 1m",
-        "profitPerPiece": " ",
-        "markupSave": " ",
-        "balanceexpense": " ",
-        "itemCode": " "
     },
     {
         "products": "Social Media Banners",

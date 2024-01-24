@@ -1,9 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from "react-router-dom"
 import './hero.css';
+// import "slick-carousel/slick/slick.css"
+// import "slick-carousel/slick/slick-theme.css"
+// import Slider from "react-slick";
 import productsData from "./productsData.json";
+import { Footer } from '../../components/footer/Footer';
 
 export const Hero = () => {
+  const [searchTerm, setSearchTerm] = useState('');
+
+  const handleSearch = (event) => {
+    setSearchTerm(event.target.value);
+  };
+
+  const filteredProducts = productsData.filter((product) => product.products.toLowerCase().includes(searchTerm.toLowerCase()));
+
   return (
     <div className='hero-container'>
       <div className="hero-banner">
@@ -14,9 +26,13 @@ export const Hero = () => {
       <div className="products">
         <div className="product-container">
         <div className="search-bar">
+          <h2 className="search-title">
+            What Do You Need
+          </h2>
+          <input type='text' placeholder='Type to Search' value={searchTerm} onChange={handleSearch} className='search-input'/>
 
         </div>
-          {productsData.map((productsData) => (
+        {filteredProducts.map((productsData) => (
             <Link to={`/${productsData.itemCode}`} key={productsData.itemCode} className='product-link-wrapper'>
               <li className="product-card">
                 <div className="product-img"/>
@@ -36,11 +52,10 @@ export const Hero = () => {
                 </div>
               </li>
             </Link>
-          )
-          )}
-
+          ))}
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };
