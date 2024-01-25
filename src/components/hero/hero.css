@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Wraps all contents in the hero section */
+.hero-wrapper {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+/* Hero Image on the Right */
+.hero-img {
+    background: url("../../assets/hero.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50vw;
+    border: 2px solid red;
+
+}
+
+/* Title On the Left */
+.hero-title {
+    border: 2px solid red;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* Headings 2*/
+h1:nth-child(2) {
+    font-weight: 800;
+    line-height: 0.1;
+    font-size: 3.8em;
+    color: orange;
+}
+
+/* Primary and Secondary Buttons */
