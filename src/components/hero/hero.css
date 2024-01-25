@@ -21,7 +21,7 @@
 
 /* Hero Image on the Right */
 .hero-img {
-    background: url(../../assets/hero.png);
+    background: url("../../assets/hero.jpeg");
     display: block;
     width: 50vw;
     object-fit: cover;
@@ -31,5 +31,6 @@
 
 .buttons-container {
     border: 2px solid red;
+
 }
 

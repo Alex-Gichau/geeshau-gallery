@@ -15,8 +15,8 @@ export const Hero = () => {
             <input type="button" className='aboutus-btn' name='About Us' />
           </div>
         </div>
-        <div className="hero-img"/>
-      </div>
+        <div className="hero-img"></div>
+        </div>
     </header>
   )
 }
