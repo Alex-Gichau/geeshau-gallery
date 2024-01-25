@@ -4,8 +4,9 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import { Sidebar } from "./components/sidebar/Sidebar";
 // import { Magicnav } from './components/magicNav/Magicnav';
 // import { Footer } from "./components/footer/Footer";
-import { Hero } from './pages/hero/Hero';
-import { ProductDetails } from './pages/productDetails/ProductDetails';
+import { Home } from './pages/home/Home';
+import { Products } from "./pages/products/Products";
+import { ProductDetails } from "./pages/productDetails/ProductDetails";
 // import { Header } from './components/header/Header';
 // import { Testimonials } from './components/testimonials/Testimonials';
 // import { Navigation } from './components/navigation/Navigation';
@@ -15,7 +16,8 @@ const App = () => {
   return (
     <BrowserRouter>
         <Routes>
-          <Route path='/' element={<Hero/>}/>
+          <Route path='/' element={<Home/>}/>
+          <Route path='/products' element={<Products/>}/>
           <Route path='/:productItemCode' element={<ProductDetails/>}/>
         </Routes>
     </BrowserRouter>

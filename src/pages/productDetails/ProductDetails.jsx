@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link, useParams} from "react-router-dom"
-import productsData from "../hero/productsData.json"
+import productsData from "../products/productsData.json"
 import "./productDetails.css"
 import { Footer } from "../../components/footer/Footer"
 
