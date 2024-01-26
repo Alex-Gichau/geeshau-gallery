@@ -15,7 +15,7 @@ export const Navigation = () => {
               <ul className='navigation'>
               <li>
                   <a href='#devs' title='Developers'>
-                    Developers
+                    Explore 
                   </a>
                 </li>
                 <li>

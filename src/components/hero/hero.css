@@ -34,14 +34,20 @@
     }
 
     .hero-hashtag {
-        font-weight: 300;
+        font-weight: 400;
         font-size: 1em;
+        padding: 1em;
+        background: rgb(39,0,147);
+        background: linear-gradient(90deg, rgba(39,0,147,1) 8%, rgba(171,0,136,1) 100%);
+        width: max-content;
+        color: white;
+        border-radius: 0.6em;
 
     }
 
     .hero-details {
         font-weight: 250;
-        font-size: 1.3em;
+        font-size: 1.1em;
         
     }
 }
@@ -51,23 +57,24 @@
     display: flex;
     width: 50vw;
     object-fit: cover;
-    height: 100vh;
-    
+    height: 100vh;    
 
 }
 
 /* CTA Buttons Container */
 .buttons-container {
-    margin: 1em 0 0 0;
+    margin: 1.5em 0 0 0;
     
 
 }
 
 .explore-btn, .aboutus-btn {
-    width: 12em;
+    width: 14em;
     margin: 0 1em 0 0;
-    padding: 1em;
+    padding: 1.2em;
     border-radius: 0.5em;
+    
+    
 }
 
 .explore-btn {
@@ -76,6 +83,7 @@
     color: white;
     font-weight: 500;
     border:2px solid white;
+        
 }
 
 .aboutus-btn {
@@ -83,6 +91,7 @@
     background: transparent;
     color: rgba(171,0,136,1);
     font-weight: 600;
+    
 }
 
 .counters {
