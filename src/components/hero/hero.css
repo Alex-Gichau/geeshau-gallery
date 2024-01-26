@@ -84,3 +84,26 @@
     color: rgba(171,0,136,1);
     font-weight: 600;
 }
+
+.counters {
+    display: flex;
+    gap: 3em;
+    margin-top: 1em;
+    text-align: center;
+    
+}
+.counter p:nth-child(1) {
+    font-size: 3em;
+    font-weight: 800;
+
+    
+}
+
+.counter p:nth-child(2) {
+    font-size: 0.9em;
+    font-weight: 300;
+}
+
+.counter span {
+    font-size: 0.4em;
+}
