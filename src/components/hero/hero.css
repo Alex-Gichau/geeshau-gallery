@@ -95,15 +95,13 @@
 .counter p:nth-child(1) {
     font-size: 3em;
     font-weight: 800;
+    color: rgba(171,0,136,1);
+    letter-spacing: -2px;
+    text-align: center;
 
-    
 }
 
 .counter p:nth-child(2) {
     font-size: 0.9em;
     font-weight: 300;
-}
-
-.counter span {
-    font-size: 0.4em;
 }

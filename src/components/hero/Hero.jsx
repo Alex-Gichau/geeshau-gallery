@@ -4,6 +4,7 @@ import "./hero.css"
 // import heroImage from "../../assets/ai image.jpeg"
 import heroImage from "../../assets/ai image 2.jpeg"
 import heroImage3 from "../../assets/ai image 3.jpeg"
+import ReactCountup from "react-countup"
 
 export const Hero = () => {
   return (
@@ -19,9 +20,11 @@ export const Hero = () => {
             <input type="button" className='aboutus-btn' value='About Us'/>
           </div>
           <div className="counters">
-            <span className="counter"><p>400+</p><p>Orders Completed</p></span>
-            <span className="counter"><p>100+</p><p>Our Clients</p></span>
-            <span className="counter"><p>80+</p><p>Our Products</p></span>
+            <span className="counter">
+              <p><ReactCountup end={821} duration={3} delay={1} className='counter-value'/>+</p>
+              <p>Orders Completed</p></span>
+            <span className="counter"><p><ReactCountup end={112} duration={2} delay={1} className='counter-value'/>+</p><p>Our Clients</p></span>
+            <span className="counter"><p><ReactCountup end={88} duration={3} delay={1} className='counter-value'/>+</p><p>Our Products</p></span>
           </div>
         </div>
         <div className="hero-img">
