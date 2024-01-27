@@ -1,0 +1,7 @@
+.order-container {
+    width: 100vw;
+}
+
+.client-order {
+    display: flex;
+}

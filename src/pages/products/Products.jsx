@@ -1,9 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from "react-router-dom"
 import './products.css';
-// import "slick-carousel/slick/slick.css";
-// import "slick-carousel/slick/slick-theme.css";
-// import Slider from "react-slick";
 import productsData from "./productsData.json";
 import { Footer } from '../../components/footer/Footer';
 

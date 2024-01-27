@@ -14,16 +14,6 @@ import { ProductDetails } from "./pages/productDetails/ProductDetails";
 
 const App = () => {
   return (
-    <header>
-      <nav>
-        <ul>
-          <li>Explore</li>
-          <li>About</li>
-          <li>Downloads</li>
-        </ul>
-      </nav>
-    </header>
-
     <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
