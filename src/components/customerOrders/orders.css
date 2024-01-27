@@ -1,7 +1,25 @@
 .order-container {
-    width: 100vw;
+    width: 90vw;
+    margin: 1em 0;
+
 }
 
 .client-order {
-    display: flex;
+    display:flex;
+    padding: 1em;
+    margin-left: 1em;
+    align-content: center;
+
+}
+
+.client-logo {
+    height: 15em;
+    width: 15em;
+    object-fit: cover;
+    border-radius: 2em;
+}
+
+.order-desc {
+    font-size: .3em;
+
 }
