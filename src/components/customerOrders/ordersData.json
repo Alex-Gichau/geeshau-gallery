@@ -5,6 +5,7 @@
             "name":"Just In Faith Foundations",
             "request":"I need 100 business cards and a social media poster for an event taking place this weekend at PCEA Juja Township Church. When can you deliver and how much does it cost?",
             "image":"https://www.salesforce.com/content/dam/web/en_us/www/images/resource-center/article-what-Is-customer-service.jpg",
+            "designation" : "Marketting / Media Company",
             "orderDate":"2 months ago"
         },
         {
@@ -12,6 +13,7 @@
             "name":"Just In Faith Foundations",
             "request":"I need 100 business cards and a social media poster for an event taking place this weekend at PCEA Juja Township Church. When can you deliver and how much does it cost?",
             "image":"https://www.salesforce.com/content/dam/web/en_us/www/images/resource-center/article-what-Is-customer-service.jpg",
+            "designation" : "Marketting / Media Company",
             "orderDate":"2 months ago"
         },
         {
@@ -19,6 +21,7 @@
             "name":"Just In Faith Foundations",
             "request":"I need 100 business cards and a social media poster for an event taking place this weekend at PCEA Juja Township Church. When can you deliver and how much does it cost?",
             "image":"https://www.salesforce.com/content/dam/web/en_us/www/images/resource-center/article-what-Is-customer-service.jpg",
+            "designation" : "Marketting / Media Company",
             "orderDate":"2 months ago"
         },
         {
@@ -26,6 +29,7 @@
             "name":"Just In Faith Foundations",
             "request":"I need 100 business cards and a social media poster for an event taking place this weekend at PCEA Juja Township Church. When can you deliver and how much does it cost?",
             "image":"https://www.salesforce.com/content/dam/web/en_us/www/images/resource-center/article-what-Is-customer-service.jpg",
+            "designation" : "Marketting / Media Company",
             "orderDate":"2 months ago"
         },
         {
@@ -33,6 +37,7 @@
             "name":"Just In Faith Foundations",
             "request":"I need 100 business cards and a social media poster for an event taking place this weekend at PCEA Juja Township Church. When can you deliver and how much does it cost?",
             "image":"https://www.salesforce.com/content/dam/web/en_us/www/images/resource-center/article-what-Is-customer-service.jpg",
+            "designation" : "Marketting / Media Company",
             "orderDate":"2 months ago"
         }, 
         {
@@ -40,6 +45,7 @@
             "name":"Just In Faith Foundations",
             "request":"I need 100 business cards and a social media poster for an event taking place this weekend at PCEA Juja Township Church. When can you deliver and how much does it cost?",
             "image":"https://www.salesforce.com/content/dam/web/en_us/www/images/resource-center/article-what-Is-customer-service.jpg",
+            "designation" : "Marketting / Media Company",
             "orderDate":"2 months ago"
         },
         {
@@ -47,6 +53,7 @@
             "name":"Just In Faith Foundations",
             "request":"I need 100 business cards and a social media poster for an event taking place this weekend at PCEA Juja Township Church. When can you deliver and how much does it cost?",
             "image":"https://www.salesforce.com/content/dam/web/en_us/www/images/resource-center/article-what-Is-customer-service.jpg",
+            "designation" : "Marketting / Media Company",
             "orderDate":"2 months ago"
         }
 ]

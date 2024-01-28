@@ -35,25 +35,25 @@ export const Orders = () => {
 
   return (
     <div className="order-container">
-    <h1 className="section-header">
-      Meet Our <b>Esteemed Clients</b>
-    </h1>
-    <p className="section-desc">
-    We've been fortunate to collaborate with and fulfill the needs of the clients listed below. Together, we've successfully brought their visions to life, creating tailored solutions that not only meet but exceed their expectations.
-    </p>
+      <h1 className="section-header">
+        Meet Our <b>Esteemed Clients</b>
+      </h1>
+      <p className="section-desc">
+        Together, we've successfully brought their visions to life, creating tailored solutions that not only meet but exceed their expectations.
+      </p>
       <Slider {...settings}>
         {ordersData.map((order, id) => (
-        <div className="client-order" key={id}>
-          <div className="order-title">
-          <img src={order.image} alt="" className="client-logo" />
-          <h1 className="client-name">{order.name}</h1>
+          <div className="client-order" key={id}>
+            <div className="order-title">
+              <img src={order.image} alt="" className="client-logo" />
+              <h1 className="client-name">{order.name}</h1>
+              <p className="client-designation">{order.designation}</p>
+            </div>
+            <div className="order-details">
+              <p className="client-desc">{order.request}</p>
+              <span className="order-date">{order.orderDate}</span>
+            </div>
           </div>
-          
-          <div className="order-details">
-            <p className="client-desc">{order.request}</p>
-            <span className="order-date">{order.orderDate}</span>
-          </div>
-        </div>
         ))}
       </Slider>
     </div>

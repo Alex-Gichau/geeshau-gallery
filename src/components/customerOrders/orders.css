@@ -1,10 +1,17 @@
 .order-container {
-    align-content: center;
     align-self: center;
     width: 85%;
     text-align: center;
     border: 2px solid red;
-    padding: 3em;
+    padding: 2em;
+}
+
+.order-container b {
+    color: orange;
+
+    h1 {
+        font-weight: 200;
+    }
 }
 
 /* Default Slides Classname */
@@ -12,36 +19,76 @@
     display:flex;
     flex-direction: column;
     gap: 1em;
-    border: 2px solid blue;
+    border-radius: 0.5em;
     overflow: hidden;
     padding: 1em;
-    margin: 0 0.5em;
+    margin: 0 0.3em;
+    border: 2px solid #f0f0f0;
 
 }
 
-.client-order:hover {
-    filter: grayscale();
-}
-
-.order-details {
-    width: 20em;
+.slick-slide:hover {
+    transform: scale(.97);  
+    background: #f0f0f079;
+    transition: ease-in-out 200ms; 
 
 }
 
-.client-logo {
-    height: 1em;
-    width: 1em;
+.slick-slide .order-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px; 
+    border-bottom: 1px solid rgb(228, 228, 228);
+
+}
+
+.slick-slide h1 {
+    margin-top: 1.2em;
+    font-weight: 500;
+    font-size: medium;
+    line-height: 0.5;
+    text-transform: uppercase;
+
+}
+
+.slick-slide .client-designation {
+    color: grey;
+    line-height: 1;
+    font-weight: 300;
+    font-size: small;
+    margin-bottom: 0.8em;
+
+}
+
+.slick-slide .client-logo {
+    height: 6em;
+    width: 6em;
     object-fit: cover;
-    border-radius: 2em;
+    border-radius: 6em;
+    border: 3px solid orange;
+    
 }
 
-.order-desc {
-    font-size: .3em;
+/* Defaults Containers */
+.slick-slide .order-details {
+    margin: 0.8em 0.4em ;
 
+}
+
+.slick-slide .client-desc {
+    font-size: 14px;
+    font-weight:300;
+    margin: 0 0 0.4em 0;
+}
+
+.slick-slide .order-date {
+    
 }
 
 .section-desc {
-    width: 65%;
+    margin: 1.5em 20em;
+    font-weight: 150;
 
 
 }
