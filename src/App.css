@@ -1,5 +1,4 @@
 /* All root element variables for the app including colors, spacing and margins */
-
 :root {
   --primary-background:#fff;
   --border-radius:15px;
@@ -14,78 +13,6 @@
   --font-size: 1.123rem;
 
 }
-
-/* All default properties of every element */
-* {
-  font-family: var(--font-family);
-  margin: 0;
-  scroll-behavior: smooth;
-}
-
-/* Default properties for every page */
-.App {
-  text-align: center;
-  
-}
-
-/* Logo that  */
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-
-/* Grid layout of the Homepage */
-.grid-item-1 {grid-area: header }
-.grid-item-2 {grid-area: sidebar }
-.grid-item-3 {grid-area: hero }
-.grid-item-4 {grid-area: testimonials }
-.grid-item-5 {grid-area: footer }
-
-.grid-container {
-  display: grid;
-  grid-template-areas:
-  'header header header header header header'
-  'sidebar hero hero hero hero testimonials'
-  'footer footer footer footer footer footer'  
-  ;
-  /* gap: 10px;
-  padding: 2px; */
-
-}
-
-/* .grid-container > div {
-  /* background: cyan;
-
-} */
 
 ::-webkit-scrollbar {
   width: 0.4em;

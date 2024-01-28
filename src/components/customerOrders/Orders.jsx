@@ -22,7 +22,7 @@ export const Orders = () => {
 
   const settings = {
     className: "center",
-    dots: true,
+    dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 3,
@@ -35,12 +35,21 @@ export const Orders = () => {
 
   return (
     <div className="order-container">
+    <h1 className="section-header">
+      Meet Our <b>Esteemed Clients</b>
+    </h1>
+    <p className="section-desc">
+    We've been fortunate to collaborate with and fulfill the needs of the clients listed below. Together, we've successfully brought their visions to life, creating tailored solutions that not only meet but exceed their expectations.
+    </p>
       <Slider {...settings}>
         {ordersData.map((order, id) => (
         <div className="client-order" key={id}>
+          <div className="order-title">
           <img src={order.image} alt="" className="client-logo" />
+          <h1 className="client-name">{order.name}</h1>
+          </div>
+          
           <div className="order-details">
-            <h1 className="client-name">{order.name}</h1>
             <p className="client-desc">{order.request}</p>
             <span className="order-date">{order.orderDate}</span>
           </div>

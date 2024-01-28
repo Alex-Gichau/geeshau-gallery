@@ -1,27 +1,47 @@
 .order-container {
-    width: 90vw;
-    margin: 1em 0;
+    align-content: center;
+    align-self: center;
+    width: 85%;
+    text-align: center;
+    border: 2px solid red;
+    padding: 3em;
+}
+
+/* Default Slides Classname */
+.slick-slide {
+    display:flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 2px solid blue;
+    overflow: hidden;
+    padding: 1em;
+    margin: 0 0.5em;
 
 }
 
-.client-order {
-    display:flex;
-    padding: 1em;
-    margin-left: 1em;
-    align-content: center;
-    border: 1px solid #ddd;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+.client-order:hover {
+    filter: grayscale();
+}
+
+.order-details {
+    width: 20em;
 
 }
 
 .client-logo {
-    height: 15em;
-    width: 15em;
+    height: 1em;
+    width: 1em;
     object-fit: cover;
     border-radius: 2em;
 }
 
 .order-desc {
     font-size: .3em;
+
+}
+
+.section-desc {
+    width: 65%;
+
 
 }
