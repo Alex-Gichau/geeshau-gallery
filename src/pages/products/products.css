@@ -1,10 +1,6 @@
 /* Hero page Wrapper */
 .hero-container {
-    /* background: linear-gradient(180deg, rgba(255,255,255,0) 30em, rgba(238,238,238,1) 40em, rgba(255,255,255,1) 45%, rgba(215,215,215,1) 60%, rgba(255,238,220,1) 77%, rgba(255,255,255,1) 100%), url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/313dd5189796845.65b0db44c2cea.jpg"); */
-    background: url("https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/313dd5189796845.65b0db44c2cea.jpg");
-    background-repeat: no-repeat;
-    background-size: 100vw;
-    /* background-position-y:-10em; */
+    
 }
 
 /* Hero Image Container */
@@ -44,7 +40,6 @@
     flex-wrap: wrap;
     gap: 0.5em;
     justify-content: center;
-    margin: 80vh 0 .5em 0;
     overflow: hidden;
     
     

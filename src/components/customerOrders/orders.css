@@ -1,9 +1,8 @@
 .order-container {
     align-self: center;
-    width: 85%;
+    width: 90%;
     text-align: center;
-    border: 2px solid red;
-    padding: 2em;
+    margin-top: 3em;
 }
 
 .order-container b {
@@ -24,6 +23,9 @@
     padding: 1em;
     margin: 0 0.3em;
     border: 2px solid #f0f0f0;
+    box-shadow: 2px -10px 69px -29px rgba(0,0,0,0.1) inset;
+    -webkit-box-shadow: 2px -10px 69px -29px rgba(0,0,0,0.1) inset;
+    -moz-box-shadow: 2px -10px 69px -29px rgba(0,0,0,0.1) inset;
 
 }
 
@@ -83,7 +85,7 @@
 }
 
 .slick-slide .order-date {
-    
+
 }
 
 .section-desc {

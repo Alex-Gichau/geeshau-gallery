@@ -24,12 +24,11 @@ export const Orders = () => {
     className: "center",
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 2000,
-    pauseonHover: true,
+    autoplaySpeed: 2500,
     centerPadding: "60px"
   };
 
