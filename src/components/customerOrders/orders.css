@@ -32,7 +32,7 @@
 .slick-slide:hover {
     transform: scale(.97);  
     background: #f0f0f079;
-    transition: ease-in-out 200ms; 
+    transition: ease-in-out 200ms;
 
 }
 

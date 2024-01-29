@@ -1,0 +1,31 @@
+.gallery-container {
+    align-self: center;
+    text-align: center;
+    height: 100vh;
+    padding: 5em;
+    background: #fffaec;
+
+}
+
+.section-desc {
+    margin: 1.5em 20em;
+    font-weight: 150;
+}
+
+.images-container {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+
+.images-container>img {
+    width: 5rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+img:hover {
+    flex: 2;
+    transition: all 0.8s ease-in-out;
+}
+
