@@ -3,7 +3,7 @@
     text-align: center;
     height: 100vh;
     padding: 5em;
-    background: #fffaec;
+    background: #f8f8f8;
 
 }
 
@@ -14,18 +14,23 @@
 
 .images-container {
     display: flex;
-    height: 20rem;
-    gap: 1rem;
+    align-self: center;
+    
 }
 
-.images-container>img {
-    width: 5rem;
-    object-fit: cover;
-    border-radius: 1rem;
+.img-container {
+    
+
 }
 
-img:hover {
-    flex: 2;
-    transition: all 0.8s ease-in-out;
+.image-box img {
+    width: 10em;
+    border: 2px solid red;
+
 }
 
+.image-desc span {
+    font-size: small;        
+
+
+}
