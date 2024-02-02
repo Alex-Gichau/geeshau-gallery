@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // import { Magicnav } from './components/magicNav/Magicnav';
 // import { Footer } from "./components/footer/Footer";
 import { Home } from './pages/home/Home';
-import { Products } from "./pages/products/Products";
+import { Browse } from './pages/browse/Browse';
 import { ProductDetails } from "./pages/productDetails/ProductDetails";
 // import { Header } from './components/header/Header';
 // import { Testimonials } from './components/testimonials/Testimonials';
@@ -17,7 +17,7 @@ const App = () => {
     <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/products' element={<Products/>}/>
+          <Route path='/browse' element={<Browse/>}/>
           <Route path='/:productItemCode' element={<ProductDetails/>}/>
         </Routes>
     </BrowserRouter>
