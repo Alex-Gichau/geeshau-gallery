@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.browse-container {
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    vertical-align: center;   
+
+}
+
+.header-banner {
+    width: 90vw;
+    height: 30vh;
+    border: 2px solid red;
+    border-radius: 0.5em;
+    background: "../../assets/sample.JPG";
+    object-fit: cover;
+
+
+
+
+}

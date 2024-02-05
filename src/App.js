@@ -1,16 +1,9 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// import { Sidebar } from "./components/sidebar/Sidebar";
-// import { Magicnav } from './components/magicNav/Magicnav';
-// import { Footer } from "./components/footer/Footer";
 import { Home } from './pages/home/Home';
 import { Browse } from './pages/browse/Browse';
 import { ProductDetails } from "./pages/productDetails/ProductDetails";
-// import { Header } from './components/header/Header';
-// import { Testimonials } from './components/testimonials/Testimonials';
-// import { Navigation } from './components/navigation/Navigation';
-// import { Ratings } from "./components/testimonials/Ratings"
 
 const App = () => {
   return (

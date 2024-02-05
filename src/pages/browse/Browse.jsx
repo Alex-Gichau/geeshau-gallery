@@ -16,9 +16,13 @@ export const Browse = () => {
 
     return (
         <div className='browse-container'>
-            {jsonData.map((item, index) => (
+            {/* {jsonData.map((item, index) => (
                 <productCard key={index} data={item} />
-            ))}
+            ))} */}
+
+            <div className="header-banner">
+                <img src="" alt="" />
+            </div>
 
         </div>
     )
