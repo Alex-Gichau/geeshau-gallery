@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import "./orders.css"
+import "./feedback.css"
 import Slider from 'react-slick'
 import "slick-carousel/slick/slick.css"
 import "slick-carousel/slick/slick-theme.css"
@@ -18,7 +18,7 @@ export const Orders = () => {
   //   fetchData();
   // }, []);
 
-  const ordersData = data.data;
+  const feedbackData = data.data;
 
   const settings = {
     className: "center",
@@ -41,7 +41,7 @@ export const Orders = () => {
         Together, we've successfully brought their visions to life, creating tailored solutions that not only meet but exceed their expectations.
       </p>
       <Slider {...settings}>
-        {ordersData.map((order, id) => (
+        {feedbackData.map((order, id) => (
           <div className="client-order" key={id}>
             <div className="order-title">
               <img src={order.image} alt="" className="client-logo" />

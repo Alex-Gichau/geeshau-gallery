@@ -1,7 +1,6 @@
 import React from 'react'
 import "./browse.css"
 import { useEffect, useState } from "react"
-import { productCard } from '../../components/productCard/ProductCard'
 
 export const Browse = () => {
 
