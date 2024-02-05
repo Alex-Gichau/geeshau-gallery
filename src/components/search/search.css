@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.search-container {
+    background-color: blue;
+    padding: 2em;
+}

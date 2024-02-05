@@ -7,19 +7,18 @@
     padding: 1em;
     display: flex;
     flex-direction: column;
+    width: 90vw;
     vertical-align: center;   
 
 }
 
 .header-banner {
-    width: 90vw;
-    height: 30vh;
-    border: 2px solid red;
+    height: 40vh;
+    background-color: aqua;
     border-radius: 0.5em;
-    background: "../../assets/sample.JPG";
-    object-fit: cover;
-
-
-
-
+    overflow: hidden;
+    
 }
+
+
+

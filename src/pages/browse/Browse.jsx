@@ -1,6 +1,8 @@
 import React from 'react'
 import "./browse.css"
 import { useEffect, useState } from "react"
+import { Search } from '../../components/search/Search'
+
 
 export const Browse = () => {
 
@@ -21,8 +23,9 @@ export const Browse = () => {
             ))} */}
 
             <div className="header-banner">
-                <img src="" alt="" />
+                
             </div>
+            <Search/>
 
         </div>
     )
