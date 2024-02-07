@@ -1,12 +1,13 @@
 import React from 'react'
 import "./productCard.css"
 
-export const productCard = ({data}) => {
+export const ProductCard = () => {
   return (
-    <div className='card-wrapper'>
-        <h1>{data.products}</h1>
-        <p>{data.description}</p>
-        todo
+    <div className="card-container">
+      <div className="card-wrapper">
+        <img src="" alt="" />
+        <p className="card-title">Product Title</p>
+      </div>      
     </div>
   )
 }
