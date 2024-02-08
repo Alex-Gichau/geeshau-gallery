@@ -10,12 +10,12 @@ import { ProductCard } from '../../assets/productCard/ProductCard'
 export const Home = () => {
   return (
     <div className='home-container'>
-      <Navigation/>
-      <Hero/>
+      {/* <Navigation/> */}
+      {/* <Hero/> */}
       <ProductCard/>
-      <Orders/>
-      <Products/>
-      <Footer/>
+      {/* <Orders/> */}
+      {/* <Products/> */}
+      {/* <Footer/> */}
     </div>
   )
 }
