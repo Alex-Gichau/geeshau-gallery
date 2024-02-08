@@ -1,24 +1,25 @@
 import React from 'react'
 import "./productCard.css"
 import { GoStarFill } from "react-icons/go";
-import { IoCalendarNumber, IoLogoWhatsapp } from "react-icons/io5"
+import { IoLogoWhatsapp } from "react-icons/io5"
 import { SiMaterialdesignicons } from "react-icons/si";
+import { MdOutlineTimer } from "react-icons/md";
 
 
 export const ProductCard = () => {
   return (
     <div className="card-container">
       <div className="card-top">
-        <p className="card-bestSeller">Popular</p>
+        <p className="card-bestSeller">AVAILABLE</p>
         <img src="https://img.pikbest.com/origin/06/20/18/23ppIkbEsTKh8.jpg!w700wp" alt="" />
       </div>
 
       <div className="card-bottom">
         <p className="card-productID">GES010101</p>
-        <h3 className="card-title">Social Media Posters</h3>
+        <h3 className="card-title">2D Animations Videos</h3>
         <div className="card-details">
           <p className="card-ratings"><GoStarFill/>4.5/5</p>
-          <p className="card-date"><IoCalendarNumber/>2 Hours</p>
+          <p className="card-date"><MdOutlineTimer/>2 Hours</p>
           <p className="card-date"><SiMaterialdesignicons/>JPG</p>
         </div>
 
@@ -31,9 +32,9 @@ export const ProductCard = () => {
 
         <div className="card-footer">
           <span><p>Total Price</p><h4>Kes. 500.00</h4></span>
-          <span>
+          <span className="orderButton">
           <IoLogoWhatsapp/>
-          <input type="button" value=" Order Now" />
+          <input type="button" value=" Order Now" className='orderButton'/>
           </span>
         </div>
 

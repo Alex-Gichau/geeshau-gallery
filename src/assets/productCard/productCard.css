@@ -57,10 +57,15 @@
 
 .card-details, .card-ratings, .card-date {
     display: flex;
-    gap: 0.4em;
     font-size: small;
     margin-top: 0.1em;
     font-weight: 300;
+    gap:0.4em;
+}
+
+.card-details {
+    gap: 1em;
+
 }
 
 .card-ratings :nth-child(1) {
@@ -92,7 +97,8 @@
  }
 
  .card-footer span:nth-child(2) {
-    text-align: center;
+    display: flex;
+    align-items: center;
     border: 1px solid darkgray;
     padding: 0.4em 0.7em;
     border-radius: 0.3em;
@@ -111,6 +117,19 @@
     background: transparent;
     border: none;
  }
+
+ .card-footer .orderButton:hover {
+    color: #fefefe;
+    background-color: #0a8b11;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+
+
+ }
+
+ 
+ 
+
 
 
 
