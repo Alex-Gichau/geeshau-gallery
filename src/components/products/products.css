@@ -151,12 +151,12 @@
 }
 
 /* Product Footer Wrapper properties */
-.card-footer {
+/* .card-footer {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
     border: 2px solid red;
-}
+} */
 
 /* Product charge Text properties */
 .product-container .product-charge {
