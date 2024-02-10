@@ -19,7 +19,7 @@ export const ProductCard = ({productsData}) => {
         <h3 className="card-title">{productsData.products}</h3>
         <div className="card-details">
           <p className="card-ratings"><GoStarFill/>4.5/5</p>
-          <p className="card-date"><MdOutlineTimer/>{productsData.duration}</p>
+          <p className="card-date"><MdOutlineTimer/>1 Day</p>
           <p className="card-date"><SiMaterialdesignicons/>JPG</p>
         </div>
 
@@ -31,10 +31,10 @@ export const ProductCard = ({productsData}) => {
         </div>
 
         <div className="card-footer">
-        <span><p>Total Price</p><h4>Kes. {productsData.        sellingPrice}.00</h4></span>
+        <span><p>Total Price</p><h4>Kes. {productsData.sellingPrice}.00</h4></span>
           <span className="orderButton">
           <IoLogoWhatsapp/>
-          <input type="button" value=" Order Now" className='orderButton'/>
+          <input type="button" value="Order Now" className='orderButton'/>
           </span>
         </div>
 
