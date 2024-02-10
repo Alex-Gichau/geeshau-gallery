@@ -23,7 +23,6 @@ export const Browse = () => {
             ))} */}
 
             <div className="header-banner">
-                
             </div>
             <Search/>
 
