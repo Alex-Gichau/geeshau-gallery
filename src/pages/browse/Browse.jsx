@@ -6,25 +6,26 @@ import { Search } from '../../components/search/Search'
 
 export const Browse = () => {
 
-    const [jsonData, setJsonData] = useState([]);
-
-    useEffect(() => {
-        fetch("./../../components/customerOrders/ordersData.json")
-            .then((response) => response.json())
-            .then((data) => setJsonData(data))
-            .catch((error) => console.error("Error fetching data : " + error), []);
-
-    })
+    
 
     return (
         <div className='browse-container'>
-            {/* {jsonData.map((item, index) => (
-                <productCard key={index} data={item} />
-            ))} */}
-
             <div className="header-banner">
             </div>
-            <Search/>
+
+            <Search />
+
+            <div className="products-grid">
+                <h1 className='grid-title'>Browse Our Products</h1>
+                <div className="gallery-wrapper">
+                    <div className="galleryContainer">
+                        {
+                            
+                        }
+                    </div>
+
+                </div>
+            </div>
 
         </div>
     )
