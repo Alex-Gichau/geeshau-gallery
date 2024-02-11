@@ -1,107 +1,74 @@
 [
     {
-        "image_url": "https://picsum.photos/id/0/500/300",
-        "date_published": "2023-02-15",
-        "time": "10:25:19",
-        "name": "Picture 1",
-        "category": "cars"
+        "ClientName": "DN CAKES EMPIRE",
+        "PostTitle": "Social Media Poster",
+        "DatePosted": "Mon, Jan 2, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Soft Copy",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/bb1366190239609.65ba2b6b321a7.jpg"
     },
     {
-        "image_url": "https://picsum.photos/id/1/500/300",
-        "date_published": "2023-02-13",
-        "time": "04:11:28",
-        "name": "Picture 2",
-        "category": "nature"
+        "ClientName": "PCEA JUJA TOWNSHIP YOUTH",
+        "PostTitle": "Social Media Poster",
+        "DatePosted": "Wed, Feb 1, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Soft Copy",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b77205190239609.65ba2b6b32e4a.jpg"
     },
     {
-        "image_url": "https://picsum.photos/id/2/500/300",
-        "date_published": "2023-02-18",
-        "time": "19:33:45",
-        "name": "Picture 3",
-        "category": "architecture"
+        "ClientName": "PCEA JUJA TOWNSHIP CHURCH",
+        "PostTitle": "Booklet design",
+        "DatePosted": "Fri, Mar 3, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Printed",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/b2eb50190239609.65ba2b6b369e2.jpg"
     },
     {
-        "image_url": "https://picsum.photos/id/3/500/300",
-        "date_published": "2023-02-16",
-        "time": "08:55:12",
-        "name": "Picture 4",
-        "category": "people"
+        "ClientName": "PCEA JUJA TOWNSHIP",
+        "PostTitle": "Thumbnail Design",
+        "DatePosted": "Sun, Apr 2, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Soft Copy HD",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d070f5190239609.65ba2b6b35315.jpg"
     },
     {
-        "image_url": "https://picsum.photos/id/4/500/300",
-        "date_published": "2023-02-14",
-        "time": "12:07:59",
-        "name": "Picture 5",
-        "category": "art"
+        "ClientName": "PCEA HOUSING",
+        "PostTitle": "Website Header",
+        "DatePosted": "Tue, May 2, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Soft Copy HD",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/911bbf190239609.65ba2b6b4ec5b.jpg"
     },
     {
-        "image_url": "https://picsum.photos/id/5/500/300",
-        "date_published": "2023-02-17",
-        "time": "15:20:36",
-        "name": "Picture 6",
-        "category": "animals"
+        "ClientName": "PCEA HOUSING",
+        "PostTitle": "Website Landing Page",
+        "DatePosted": "Thu, Jun 1, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Soft Copy HD",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/559a00190239609.65ba2b6b528c4.png"
     },
     {
-        "image_url": "https://picsum.photos/id/6/500/300",
-        "date_published": "2023-02-19",
-        "time": "03:43:13",
-        "name": "Picture 7",
-        "category": "cars"
+        "ClientName": "KAKA ENTERTAINMENT",
+        "PostTitle": "Theme Poster",
+        "DatePosted": "Sat, Jul 1, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Soft Copy HD",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/68c67c190239609.65ba2b6b5c76f.jpg"
     },
     {
-        "image_url": "https://picsum.photos/id/7/500/300",
-        "date_published": "2023-02-12",
-        "time": "17:05:50",
-        "name": "Picture 8",
-        "category": "nature"
+        "ClientName": "PCEA TOWNSHIP",
+        "PostTitle": "Certificate Design",
+        "DatePosted": "Mon, Jul 31, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Soft Copy HD",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/fs/d45434190239609.65ba2b6b559a6.jpg"
     },
     {
-        "image_url": "https://picsum.photos/id/8/500/300",
-        "date_published": "2023-02-15",
-        "time": "01:38:27",
-        "name": "Picture 9",
-        "category": "architecture"
-    },
-    {
-        "image_url": "https://picsum.photos/id/9/500/300",
-        "date_published": "2023-02-16",
-        "time": "23:51:04",
-        "name": "Picture 10",
-        "category": "people"
-    },
-    {
-        "image_url": "https://picsum.photos/id/10/500/300",
-        "date_published": "2023-02-14",
-        "time": "06:14:41",
-        "name": "Picture 11",
-        "category": "art"
-    },
-    {
-        "image_url": "https://picsum.photos/id/11/500/300",
-        "date_published": "2023-02-17",
-        "time": "21:37:28",
-        "name": "Picture 12",
-        "category": "animals"
-    },
-    {
-        "image_url": "https://picsum.photos/id/12/500/300",
-        "date_published": "2023-02-19",
-        "time": "10:10:05",
-        "name": "Picture 13",
-        "category": "cars"
-    },
-    {
-        "image_url": "https://picsum.photos/id/13/500/300",
-        "date_published": "2023-02-11",
-        "time": "05:42:42",
-        "name": "Picture 14",
-        "category": "nature"
-    },
-    {
-        "image_url": "https://picsum.photos/id/14/500/300",
-        "date_published": "2023-02-15",
-        "time": "10:25:19",
-        "name": "Picture 15",
-        "category": "architecture"
+        "ClientName": "ASPIRE LENDING LIMITED",
+        "PostTitle": "Poster Design",
+        "DatePosted": "Wed, Aug 30, 2023",
+        "Formats": "JPG",
+        "FormatDelivery": "Soft Copy HD",
+        "ImageUrl": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/8a17c4190239609.65ba2b6b83a3b.jpg"
     }
 ]

@@ -8,7 +8,7 @@
     display: flex;
     flex-direction: column;
     width: 90vw;
-    vertical-align: center;
+    margin:auto;
 
 }
 
@@ -17,7 +17,7 @@
     background-color: aqua;
     border-radius: 0.5em;
     overflow: hidden;
-    background: url(../../assets//sample.JPG);
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/fs/d070f5190239609.65ba2b6b35315.jpg);
     object-fit: cover;
     
 }
@@ -31,5 +31,35 @@
     text-align: center;
 
 }
+
+.galleryContainer {
+    margin: 2em auto;
+    columns: 5;
+
+}
+
+
+.galleryItem {
+    break-inside: avoid;
+    overflow: hidden;
+    width: 26.5em;
+}
+
+
+.galleryItem img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 1em;
+}
+
+.galleryItem img:hover {
+    filter: saturate(1.5);
+    opacity: 0.9;
+    transition: all 100ms ease-in-out;
+    
+}
+
+
+
 
 
