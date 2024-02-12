@@ -21,7 +21,7 @@ export const Hero = () => {
           </div>
           <div className="counters">
             <span className="counter">
-              <p><ReactCountup end={821} duration={4} delay={1} className='counter-value'/>+</p>
+              <p><ReactCountup end={900} duration={4} delay={1} className='counter-value'/>+</p>
               <p>Orders Completed</p></span>
             <span className="counter"><p><ReactCountup end={112} duration={4} delay={1} className='counter-value'/>+</p><p>Our Clients</p></span>
             <span className="counter"><p><ReactCountup end={88} duration={3} delay={1} className='counter-value'/>+</p><p>Our Products</p></span>
