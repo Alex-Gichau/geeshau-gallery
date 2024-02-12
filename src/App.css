@@ -26,3 +26,8 @@
   background-color: rgb(210, 210, 210);
 }
 
+* {
+  margin: 0;
+  box-sizing: 0;
+}
+
