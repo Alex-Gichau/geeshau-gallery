@@ -10,6 +10,7 @@ export const Search = () => {
                 <input type="search" placeholder='What Would Like Today...' />
                 <button className="search-btn" placeholder='Search'><FiSearch/></button>
             </div>
+            <h2>Example : <i>Business Cards, Social Media Posters, Graduation Posters .etc.</i></h2>
         </div>
     )
 }
