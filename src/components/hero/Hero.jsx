@@ -29,7 +29,7 @@ export const Hero = () => {
         </div>
         <div className="hero-img">
           <img src={heroImage} alt="Hero" />
-        </div>
+          </div>
       </div>
     </header>
   )
