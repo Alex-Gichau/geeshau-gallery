@@ -26,4 +26,3 @@ Following along with:
 * E-Commerce category (for posters & banners pricing) : https://youtu.be/4mOkFXyxfsU
 * Portfolio Website: https://youtu.be/qKBLkcMj75M
 * Chat platform with React, Reduc, NestJS: https://youtu.be/p5winbUa4ns
-* 
