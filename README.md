@@ -19,8 +19,7 @@ Following along with:
 * Quotation Generator & Reciept generator : https://github.com/tuanpham-dev/react-invoice-generator
 * Payment details [ Javascript Frameworks/Module integration ] : https://github.com/paymentsds/mpesa-js-sdk
  - Similar application example: https://youtu.be/LqnKiJb63XU OVERALL IDEA
-<!-- Avoid payment module coding from scratch. Users will have to:
-1. Make payment on the site-->
+<!-- Avoid payment module coding from scratch. Users will have to: Make payment on the site-->
 * E-Commerce category (for posters & banners pricing) : https://youtu.be/4mOkFXyxfsU
 * Portfolio Website: https://youtu.be/qKBLkcMj75M
 * Chat platform with React, Reduc, NestJS: https://youtu.be/p5winbUa4ns
