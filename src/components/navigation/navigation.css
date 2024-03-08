@@ -128,7 +128,7 @@ header {
     }
 
     .nav__list, .nav__link {
-        display: flex;
+        display: flex; 
 
     }
 
