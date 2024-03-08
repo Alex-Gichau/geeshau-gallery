@@ -1,0 +1,1129 @@
+[
+    
+    {
+        "products": "2D animations (1 min or less)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 5510,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 5510,
+        "markupSave": 3856.9999999999995,
+        "balanceexpense": 1653.0000000000005,
+        "dollarRates": 35,
+        "itemCode": "GESPROD2"
+    },
+    {
+        "products": "2D animations (10 min)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 8190,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 8190,
+        "markupSave": 5733,
+        "balanceexpense": 2457,
+        "dollarRates": 52,
+        "itemCode": "GESPROD3"
+    },
+    {
+        "products": "2D animations (15 min)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 8510,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 8510,
+        "markupSave": 5957,
+        "balanceexpense": 2553,
+        "dollarRates": 54,
+        "itemCode": "GESPROD4"
+    },
+    {
+        "products": "2D animations (17 min)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 8660,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 8660,
+        "markupSave": 6062,
+        "balanceexpense": 2598,
+        "dollarRates": 55,
+        "itemCode": "GESPROD5"
+    },
+    {
+        "products": "2D animations (2 min)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 5990,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 5990,
+        "markupSave": 4193,
+        "balanceexpense": 1797,
+        "dollarRates": 38,
+        "itemCode": "GESPROD6"
+    },
+    {
+        "products": "2D animations (3 min)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 6460,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 6460,
+        "markupSave": 4522,
+        "balanceexpense": 1938,
+        "dollarRates": 41,
+        "itemCode": "GESPROD7"
+    },
+    {
+        "products": "2D animations (4 min)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 6930,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 6930,
+        "markupSave": 4851,
+        "balanceexpense": 2079,
+        "dollarRates": 44,
+        "itemCode": "GESPROD8"
+    },
+    {
+        "products": "2D animations (6 min)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 7560,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 7560,
+        "markupSave": 5292,
+        "balanceexpense": 2268,
+        "dollarRates": 48,
+        "itemCode": "GESPROD9"
+    },
+    {
+        "products": "2D animations (8 min)",
+        "description": "Motion rigging, speech engineering, rendering and production of ready-to-use videos",
+        "sellingPrice": 7880,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 7880,
+        "markupSave": 5516,
+        "balanceexpense": 2364,
+        "dollarRates": 50,
+        "itemCode": "GESPROD10"
+    },
+    {
+        "products": "A3 Foldable Forms",
+        "description": "Colored fill out forms on colored plain papers printed on 4 sides (pages 1 -4)",
+        "sellingPrice": 50,
+        "buyingPriceCostToMake": 2.5,
+        "profitPerPiece": 47.5,
+        "markupSave": 33.25,
+        "balanceexpense": 14.25,
+        "itemCode": "GESPROD11"
+    },
+    {
+        "products": "A3 Foldable Material",
+        "description": "Material foldable for pinning to your notice board or small area mounts",
+        "sellingPrice": 60,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD12"
+    },
+    {
+        "products": "A4 Brochure Design",
+        "description": "Have your informations packed in a master piece design A4 size",
+        "sellingPrice": 650,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 650,
+        "markupSave": 454.99999999999994,
+        "balanceexpense": 195.00000000000006,
+        "itemCode": "GESPROD13"
+    },
+    {
+        "products": "A4 Foldable Material",
+        "description": "Material foldable for pinning to your notice board or small area mounts",
+        "sellingPrice": 45,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD14"
+    },
+    {
+        "products": "A4 Lamination",
+        "description": "Extra plastic coating A4 size of your plain paper",
+        "sellingPrice": 60,
+        "buyingPriceCostToMake": 50,
+        "profitPerPiece": 10,
+        "markupSave": 7,
+        "balanceexpense": 3,
+        "itemCode": "GESPROD15"
+    },
+    {
+        "products": "A4 Plain Paper Printed",
+        "description": "Plain paper Printed colored document",
+        "sellingPrice": 5,
+        "buyingPriceCostToMake": 5,
+        "profitPerPiece": 0,
+        "markupSave": 0,
+        "balanceexpense": 0,
+        "itemCode": "GESPROD16"
+    },
+    {
+        "products": "Advert Videos",
+        "description": "Includes intro,outro,wedding,event previews and any kind of videos per minute",
+        "sellingPrice": 1500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 1500,
+        "markupSave": 1050,
+        "balanceexpense": 450,
+        "itemCode": "GESPROD17"
+    },
+    {
+        "products": "Advertisement Video",
+        "description": "Sliding Narration Video matching your naration for you to tell your STORY with images and stock videos. ",
+        "sellingPrice": 1500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 1500,
+        "markupSave": 1050,
+        "balanceexpense": 450,
+        "itemCode": "GESPROD18"
+    },
+    {
+        "products": "App UI Design",
+        "description": "Figma prototyped fully designed application based on users preference. ",
+        "sellingPrice": 5000,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 5000,
+        "markupSave": 3500,
+        "balanceexpense": 1500,
+        "itemCode": "GESPROD19"
+    },
+    {
+        "products": "Balance",
+        "description": "Amount that was not cleared based on the last Geeshau invoice",
+        "sellingPrice": 0,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 0,
+        "markupSave": 0,
+        "balanceexpense": 0,
+        "itemCode": "GESPROD20"
+    },
+    {
+        "products": "Banner Design",
+        "description": "Graphics generated based on the client information",
+        "sellingPrice": 400,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 400,
+        "markupSave": 280,
+        "balanceexpense": 120,
+        "itemCode": "GESPROD21"
+    },
+    {
+        "products": "Banner Package",
+        "description": "Graphics printed on a material 1m x 1m unit cost",
+        "sellingPrice": 950,
+        "buyingPriceCostToMake": 400,
+        "profitPerPiece": 550,
+        "markupSave": 385,
+        "balanceexpense": 165,
+        "itemCode": "GESPROD22"
+    },
+    {
+        "products": "Banner Printed",
+        "description": "Graphics printed on a material 1m x 1m unit cost",
+        "sellingPrice": 550,
+        "buyingPriceCostToMake": 450,
+        "profitPerPiece": 100,
+        "markupSave": 70,
+        "balanceexpense": 30,
+        "itemCode": "GESPROD23"
+    },
+    {
+        "products": "Bifold Brochure Printed",
+        "description": "Client information in a 2-folded pager leaf of paper",
+        "sellingPrice": 10,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD24"
+    },
+    {
+        "products": "Bifold Design",
+        "description": "Client information and pictorial designed and arranged",
+        "sellingPrice": 500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD25"
+    },
+    {
+        "products": "Book Cover Design",
+        "description": "Design your book to match your audience ",
+        "sellingPrice": 350,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 350,
+        "markupSave": 244.99999999999997,
+        "balanceexpense": 105.00000000000003,
+        "itemCode": "GESPROD27"
+    },
+    {
+        "products": "Booklets Design",
+        "description": "Design cost for an 8-pager A5 booklet or below",
+        "sellingPrice": 1500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD28"
+    },
+    {
+        "products": "Bookmarks",
+        "description": "Laminated 50mm by 210mm tough cards with smooth texture. Lace included optionally",
+        "sellingPrice": 8,
+        "buyingPriceCostToMake": 4.4,
+        "profitPerPiece": 3.6,
+        "markupSave": 2.52,
+        "balanceexpense": 1.08,
+        "itemCode": "GESPROD29"
+    },
+    {
+        "products": "Business Cards Design",
+        "description": "Both sided card with logo and contact details",
+        "sellingPrice": 300,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD30"
+    },
+    {
+        "products": "Business Cards Printed",
+        "description": "Plain 8.5cm x 5cm card printed and packed in 100pcs minimum",
+        "sellingPrice": 6,
+        "buyingPriceCostToMake": 2.1799999999999997,
+        "profitPerPiece": 3.8,
+        "markupSave": 2.6599999999999997,
+        "balanceexpense": 1.1400000000000001,
+        "comments": "Buy artcard = 0.68 ;",
+        "itemCode": "GESPROD31"
+    },
+    {
+        "products": "Business Cards Printed w/ L",
+        "description": "Laminated 8.5cm x 5cm card printed and packed in 100pcs minimum",
+        "sellingPrice": 7,
+        "buyingPriceCostToMake": 2.1799999999999997,
+        "profitPerPiece": 4.8,
+        "markupSave": 3.36,
+        "balanceexpense": 1.44,
+        "comments": "Lamination = Kes. 1.5 ; Buy artcard = 0.68 ;",
+        "itemCode": "GESPROD32"
+    },
+    {
+        "products": "Business Video Graphics",
+        "description": "Include tags, intros,lowerthirds and outro for your business",
+        "sellingPrice": 3000,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD33"
+    },
+    {
+        "products": "Certificate Design",
+        "description": "Modern certification documents designs to your liking.",
+        "sellingPrice": 650,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 650,
+        "markupSave": 454.99999999999994,
+        "balanceexpense": 195.00000000000006,
+        "itemCode": "GESPROD34"
+    },
+    {
+        "products": "Certificate Print",
+        "description": "Certificate package pieces",
+        "sellingPrice": 45,
+        "buyingPriceCostToMake": 5,
+        "profitPerPiece": 40,
+        "markupSave": 28,
+        "balanceexpense": 12,
+        "itemCode": "GESPROD35"
+    },
+    {
+        "products": "Company Profile Design",
+        "description": "Brief description of your business in a printable handbook",
+        "sellingPrice": 1000,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 1000,
+        "markupSave": 700,
+        "balanceexpense": 300,
+        "itemCode": "GESPROD36"
+    },
+    {
+        "products": "Design Changes",
+        "description": "Changes on your previous design after a period time or after usage",
+        "sellingPrice": 300,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 300,
+        "markupSave": 210,
+        "balanceexpense": 90,
+        "itemCode": "GESPROD37"
+    },
+    {
+        "products": "Design Only",
+        "description": "Cost of artwork for a piece",
+        "sellingPrice": 500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 500,
+        "markupSave": 350,
+        "balanceexpense": 150,
+        "itemCode": "GESPROD38"
+    },
+    {
+        "products": "Designer Masterclass : Intro",
+        "description": "The Ultimate Graphic Design Course Which Covers Photoshop, Illustrator, InDesign,Design Theory, Branding and Logo Design.",
+        "sellingPrice": 500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 500,
+        "markupSave": 350,
+        "balanceexpense": 150,
+        "itemCode": "GESPROD39"
+    },
+    {
+        "products": "DL Envelopes + Printed ",
+        "description": "DL sized envelopes Printed  minimum 1000pcs",
+        "sellingPrice": 10,
+        "buyingPriceCostToMake": 4.5,
+        "profitPerPiece": 5.5,
+        "markupSave": 3.8499999999999996,
+        "balanceexpense": 1.6500000000000004,
+        "itemCode": "GESPROD40"
+    },
+    {
+        "products": "DL Envelopes Printed only",
+        "description": "DL sized envelopes Printed  minimum 1000pcs",
+        "sellingPrice": 3.5,
+        "buyingPriceCostToMake": 3.5,
+        "profitPerPiece": 0,
+        "markupSave": 0,
+        "balanceexpense": 0,
+        "itemCode": "GESPROD41"
+    },
+    {
+        "products": "Embroidery Origination",
+        "description": "Logo design is fed in the machine for current and later Printed",
+        "sellingPrice": 800,
+        "buyingPriceCostToMake": 700,
+        "profitPerPiece": 100,
+        "markupSave": 70,
+        "balanceexpense": 30,
+        "itemCode": "GESPROD42"
+    },
+    {
+        "products": "Envelopes + Colored Printed",
+        "description": "DL sized envelopes Printed",
+        "sellingPrice": 10,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD43"
+    },
+    {
+        "products": "Envelopes Colored Printed",
+        "description": "DL sized envelopes Printed - Averagely large design",
+        "sellingPrice": 8,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD44"
+    },
+    {
+        "products": "Envelopes Design",
+        "description": "DL sized design for Printed",
+        "sellingPrice": 300,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 300,
+        "markupSave": 210,
+        "balanceexpense": 90,
+        "itemCode": "GESPROD45"
+    },
+    {
+        "products": "Flyers design",
+        "description": "Flyer designed and editted and 120pages printed at minimal cost.",
+        "sellingPrice": 500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 500,
+        "markupSave": 350,
+        "balanceexpense": 150,
+        "itemCode": "GESPROD46"
+    },
+    {
+        "products": "Flyers Printed A1",
+        "description": "Paper advertisement of your business",
+        "sellingPrice": 100,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD47"
+    },
+    {
+        "products": "Flyers Printed A3",
+        "description": "Paper advertisement of your business / event - with lamination",
+        "sellingPrice": 25,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD48"
+    },
+    {
+        "products": "Flyers Printed A4",
+        "description": "Paper advertisement of your business",
+        "sellingPrice": 10,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD49"
+    },
+    {
+        "products": "Flyers Printed A5",
+        "description": "Paper advertisement of your business",
+        "sellingPrice": 7,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD50"
+    },
+    {
+        "products": "Flyers Printed A6",
+        "description": "Paper advertisement of your business",
+        "sellingPrice": 6,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD51"
+    },
+    {
+        "products": "Forex Board Printed Sticker",
+        "description": "4mm design branded on forex board for a perfect touch",
+        "sellingPrice": 1880,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD52"
+    },
+    {
+        "products": "Frame Welding",
+        "description": "Metallic 1m x 1m frame welding and delivered",
+        "sellingPrice": 2500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD53"
+    },
+    {
+        "products": "Glossy Booklets A3",
+        "description": "Charged per sheet",
+        "sellingPrice": 65,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD54"
+    },
+    {
+        "products": "Glossy Booklets A4",
+        "description": "Charged per sheet",
+        "sellingPrice": 50,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD55"
+    },
+    {
+        "products": "Glossy Booklets A5",
+        "description": "Charged per sheet",
+        "sellingPrice": 35,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD56"
+    },
+    {
+        "products": "Hoodie Branding",
+        "description": "Hoodies branded with your logo and slogan or anything you'd like",
+        "sellingPrice": 2200,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD57"
+    },
+    {
+        "products": "Invitation Cards [S]",
+        "description": "Cards approximately 85mm by 50mm one sided or double sided",
+        "sellingPrice": 6,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD58"
+    },
+    {
+        "products": "Invitation Cards A6",
+        "description": "Cards approximately 108mm by 50mm one sided or double sided",
+        "sellingPrice": 8,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD59"
+    },
+    {
+        "products": "Lanyard Branded Neck Tags",
+        "description": "Lase with a case attached containing employee name or access keys",
+        "sellingPrice": 50,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD60"
+    },
+    {
+        "products": "Large Format  Sticker Printed",
+        "description": "Sticker 1m x 1m printed for your business",
+        "sellingPrice": 550,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD61"
+    },
+    {
+        "products": "Large Format Sticker Design",
+        "description": "Sticker 1m by 1m size and above to advertise your business",
+        "sellingPrice": 500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD62"
+    },
+    {
+        "products": "Letterhead",
+        "description": "One pager & Multipager for your official documents and letters",
+        "sellingPrice": 350,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD63"
+    },
+    {
+        "products": "Logo Design ",
+        "description": "Illustration image for your brand to make it POP!",
+        "sellingPrice": 650,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 650,
+        "markupSave": 454.99999999999994,
+        "balanceexpense": 195.00000000000006,
+        "itemCode": "GESPROD64"
+    },
+    {
+        "products": "Logo redesign",
+        "description": "Logo generation from your old files or lost logo design",
+        "sellingPrice": 300,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 300,
+        "markupSave": 210,
+        "balanceexpense": 90,
+        "itemCode": "GESPROD65"
+    },
+    {
+        "products": "Mockup Designs",
+        "description": "Generate any type of mockup designs for your workflow to sell your clients",
+        "sellingPrice": 350,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 350,
+        "markupSave": 244.99999999999997,
+        "balanceexpense": 105.00000000000003,
+        "itemCode": "GESPROD66"
+    },
+    {
+        "products": "Mounted Pictures A4",
+        "description": "A4 on a mounting board ready to be pinned on the wall or desk",
+        "sellingPrice": 550,
+        "buyingPriceCostToMake": 400,
+        "profitPerPiece": 150,
+        "markupSave": 105,
+        "balanceexpense": 45,
+        "itemCode": "GESPROD67"
+    },
+    {
+        "products": "Name Tag Design",
+        "description": "Tag label designs for individuals to be used for your business",
+        "sellingPrice": 250,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD68"
+    },
+    {
+        "products": "Name Tag Material",
+        "description": "Tag labels for individuals to be used for your business",
+        "sellingPrice": 60,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD69"
+    },
+    {
+        "products": "Narration Video",
+        "description": "Video matching your naration for you to tell your STORY!",
+        "sellingPrice": 2500,
+        "buyingPriceCostToMake": 1500,
+        "profitPerPiece": 1000,
+        "markupSave": 700,
+        "balanceexpense": 300,
+        "itemCode": "GESPROD70"
+    },
+    {
+        "products": "Newsletters Design",
+        "description": "A cooperate description for your clients in your business",
+        "sellingPrice": 1000,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD71"
+    },
+    {
+        "products": "Paid",
+        "description": "Amount already paid by the client as initial payment",
+        "sellingPrice": 0,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD72"
+    },
+    {
+        "products": "PCMF Monthly Design",
+        "description": "PCMF monthly social media poster for fellowships",
+        "sellingPrice": 400,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD73"
+    },
+    {
+        "products": "Photo Collage Editting",
+        "description": "Photoshop editting and manipulation of images to get desirable result",
+        "sellingPrice": 750,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 750,
+        "markupSave": 525,
+        "balanceexpense": 225,
+        "itemCode": "GESPROD74"
+    },
+    {
+        "products": "Photo Editting",
+        "description": "Redesign / Recolor / Enhance images for your special needs individual/business",
+        "sellingPrice": 650,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 650,
+        "markupSave": 454.99999999999994,
+        "balanceexpense": 195.00000000000006,
+        "itemCode": "GESPROD75"
+    },
+    {
+        "products": "Potrait Art",
+        "description": "Illustration image drawn for your special need",
+        "sellingPrice": 1500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD76"
+    },
+    {
+        "products": "Quality Rubber Stamps [No date]",
+        "description": "Official Stamps for your business without dates",
+        "sellingPrice": 1500,
+        "buyingPriceCostToMake": 1100,
+        "profitPerPiece": 400,
+        "markupSave": 280,
+        "balanceexpense": 120,
+        "itemCode": "GESPROD77"
+    },
+    {
+        "products": "Quality Rubber Stamps [With date]",
+        "description": "Official Stamps for your business with dates",
+        "sellingPrice": 2100,
+        "buyingPriceCostToMake": 1600,
+        "profitPerPiece": 500,
+        "markupSave": 350,
+        "balanceexpense": 150,
+        "itemCode": "GESPROD78"
+    },
+    {
+        "products": "Reciept Books A4",
+        "description": "Receipts written by your business to track orders to clients",
+        "sellingPrice": 950,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD79"
+    },
+    {
+        "products": "Reciept Books A5",
+        "description": "Receipts written by your business to track orders to clients",
+        "sellingPrice": 800,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD80"
+    },
+    {
+        "products": "Reciept Books Design",
+        "description": "Receipts written by your business to track orders to clients",
+        "sellingPrice": 300,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD81"
+    },
+    {
+        "products": "Report Booklets A4",
+        "description": "Book printed with your business report with a minimum of 4 pages",
+        "sellingPrice": 70,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD82"
+    },
+    {
+        "products": "Report Booklets A5",
+        "description": "Book printed with your business report with a minimum of 4 pages",
+        "sellingPrice": 60,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD83"
+    },
+    {
+        "products": "RePrinted",
+        "description": "Repeated Printed jobs of previous copies",
+        "sellingPrice": 4,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD84"
+    },
+    {
+        "products": "Ribbons",
+        "description": "Ribbon roll made of Satin - 1inch",
+        "sellingPrice": 150,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD85"
+    },
+    {
+        "products": "Rollup Banner Narrow Base",
+        "description": "Banner with a narrow based stand upto 3ft in height for your clients",
+        "sellingPrice": 6500,
+        "buyingPriceCostToMake": 4500,
+        "profitPerPiece": 2000,
+        "markupSave": 1400,
+        "balanceexpense": 600,
+        "itemCode": "GESPROD86"
+    },
+    {
+        "products": "Rollup Banner Wide Base",
+        "description": "Banner with a narrow based stand upto 3ft in height for your clients",
+        "sellingPrice": 9000,
+        "buyingPriceCostToMake": 7000,
+        "profitPerPiece": 2000,
+        "markupSave": 1400,
+        "balanceexpense": 600,
+        "itemCode": "GESPROD87"
+    },
+    {
+        "products": "Social Media Banners",
+        "description": "Includes LinkedIn, YouTube,Whatsapp & IG customization",
+        "sellingPrice": 1000,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD90"
+    },
+    {
+        "products": "Social Media Posters",
+        "description": "Posters that can be shared on WhatsApp, Facebook and IG",
+        "sellingPrice": 650,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD91"
+    },
+    {
+        "products": "Social Media Posters Monthly",
+        "description": "Posters that can be shared on WhatsApp, Facebook and IG",
+        "sellingPrice": 400,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD92"
+    },
+    {
+        "products": "Stickers A1",
+        "description": "Poster advertisement stickers for your business",
+        "sellingPrice": 150,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD93"
+    },
+    {
+        "products": "Stickers A3",
+        "description": "Poster advertisement stickers for your business",
+        "sellingPrice": 60,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD94"
+    },
+    {
+        "products": "Stickers A4",
+        "description": "Poster advertisement stickers for your business",
+        "sellingPrice": 15,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD95"
+    },
+    {
+        "products": "System Development",
+        "description": "Creating a fully working system for your implementation to serve better",
+        "sellingPrice": 35000,
+        "buyingPriceCostToMake": 8000,
+        "profitPerPiece": 27000,
+        "markupSave": 18900,
+        "balanceexpense": 8100,
+        "itemCode": "GESPROD96"
+    },
+    {
+        "products": "T-shirt Branding",
+        "description": "Round neck t-shirt branded with your logo and slogan or anything you'd like",
+        "sellingPrice": 700,
+        "buyingPriceCostToMake": 500,
+        "profitPerPiece": 200,
+        "markupSave": 140,
+        "balanceexpense": 60,
+        "itemCode": "GESPROD97"
+    },
+    {
+        "products": "Teardrop Banners L [3.5m]",
+        "description": "Crafted silk/cloth banners for your road-side advertisement. ",
+        "sellingPrice": 9500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD98"
+    },
+    {
+        "products": "Teardrop Banners XL [5m]",
+        "description": "Crafted silk/cloth banners for your road-side advertisement. ",
+        "sellingPrice": 11500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD99"
+    },
+    {
+        "products": "Total Design Cost",
+        "description": "For multiple designs.e.g. letterheads, business cards & logos",
+        "sellingPrice": 1200,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD100"
+    },
+    {
+        "products": "Transport/Shipping",
+        "description": "Dependent on location",
+        "sellingPrice": 200,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD101"
+    },
+    {
+        "products": "Trifold Brochure Printed",
+        "description": "Client information in a 3-folded pager leaf of paper",
+        "sellingPrice": 13,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD102"
+    },
+    {
+        "products": "Trifold Design",
+        "description": "Client information and pictorial arranged in order",
+        "sellingPrice": 550,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD103"
+    },
+    {
+        "products": "Video Editting",
+        "description": "Includes creation of new videos for weddings",
+        "sellingPrice": 1500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 1500,
+        "markupSave": 1050,
+        "balanceexpense": 450,
+        "itemCode": "GESPROD104"
+    },
+    {
+        "products": "Voucher Design",
+        "description": "Voucher design for your organization",
+        "sellingPrice": 350,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 350,
+        "markupSave": 244.99999999999997,
+        "balanceexpense": 105.00000000000003,
+        "itemCode": "GESPROD105"
+    },
+    {
+        "products": "Web UI Design",
+        "description": "Website design complete with interactionand responsiveness",
+        "sellingPrice": 10000,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD106"
+    },
+    {
+        "products": "Webinar Social Media Branding",
+        "description": "Branding package that can be used for your professional Online Audience and meetings. ",
+        "sellingPrice": 650,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 650,
+        "markupSave": 454.99999999999994,
+        "balanceexpense": 195.00000000000006,
+        "itemCode": "GESPROD107"
+    },
+    {
+        "products": "Website Redesign ",
+        "description": "Remaking a website from its previous design to a new modern design",
+        "sellingPrice": 7500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 7500,
+        "markupSave": 5250,
+        "balanceexpense": 2250,
+        "itemCode": "GESPROD108"
+    },
+    {
+        "products": "Wedding Card Insert",
+        "description": "A5 average size insert card both sided content",
+        "sellingPrice": 10,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD109"
+    },
+    {
+        "products": "Wedding Cards A4",
+        "description": "Laminated event cards / programs used in weddings and social gatherings .e.g. Wedding, burial, party",
+        "sellingPrice": 25,
+        "buyingPriceCostToMake": 22,
+        "profitPerPiece": 3,
+        "markupSave": 2.0999999999999996,
+        "balanceexpense": 0.9000000000000004,
+        "itemCode": "GESPROD110"
+    },
+    {
+        "products": "Wedding Cards A5",
+        "description": "Laminated event cards / programs used in weddings and social gatherings .e.g. Wedding, burial, party",
+        "sellingPrice": 15,
+        "buyingPriceCostToMake": 11,
+        "profitPerPiece": 4,
+        "markupSave": 2.8,
+        "balanceexpense": 1.2000000000000002,
+        "itemCode": "GESPROD111"
+    },
+    {
+        "products": "Wedding Flowery Card",
+        "description": "A4 flower ribbon bound wedding invitation card complete w/ inserts",
+        "sellingPrice": 85,
+        "buyingPriceCostToMake": 65,
+        "profitPerPiece": 20,
+        "markupSave": 14,
+        "balanceexpense": 6,
+        "itemCode": "GESPROD112"
+    },
+    {
+        "products": "Wedding Invitation Poster",
+        "description": "Bride and groom picture and beautiful representation of their invitation to friends and family",
+        "sellingPrice": 500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 500,
+        "markupSave": 350,
+        "balanceexpense": 150,
+        "itemCode": "GESPROD113"
+    },
+    {
+        "products": "Wedding Programs",
+        "description": "A foldable card with songs for all your guests to bless your wedding",
+        "sellingPrice": 20,
+        "buyingPriceCostToMake": 12,
+        "profitPerPiece": 8,
+        "markupSave": 5.6,
+        "balanceexpense": 2.4000000000000004,
+        "itemCode": "GESPROD114"
+    },
+    {
+        "products": "Wedding Video Graphics",
+        "description": "Include tags, intros,lowerthirds and outro for your wedding",
+        "sellingPrice": 1500,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 1500,
+        "markupSave": 1050,
+        "balanceexpense": 450,
+        "itemCode": "GESPROD115"
+    },
+    {
+        "products": "White Perspex Board",
+        "description": "Full perspex board to light up your signage board",
+        "sellingPrice": 4500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD116"
+    },
+    {
+        "products": "Window Graphics Design",
+        "description": "Full branding of your office windows for your business",
+        "sellingPrice": 1000,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 1000,
+        "markupSave": 700,
+        "balanceexpense": 300,
+        "itemCode": "GESPROD117"
+    },
+    {
+        "products": "Window Graphics Printed",
+        "description": "Full sticker Printed for your office windows",
+        "sellingPrice": 1000,
+        "buyingPriceCostToMake": 500,
+        "profitPerPiece": 500,
+        "markupSave": 350,
+        "balanceexpense": 150,
+        "itemCode": "GESPROD118"
+    },
+    {
+        "products": "Yellow Aluco Board",
+        "description": "Yellow board for mounting your 3D signage",
+        "sellingPrice": 3500,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD119"
+    },
+    {
+        "products": "Voucher Printing",
+        "description": "Printed vouchers to distribute to your customers",
+        "sellingPrice": 10,
+        "profitPerPiece": " ",
+        "markupSave": " ",
+        "balanceexpense": " ",
+        "itemCode": "GESPROD120"
+    },
+    {
+        "products": "Invoice Design",
+        "description": "Invoices customized to fit your needs as an organization",
+        "sellingPrice": 350,
+        "buyingPriceCostToMake": 0,
+        "profitPerPiece": 350,
+        "markupSave": 244.99999999999997,
+        "balanceexpense": 105.00000000000003,
+        "itemCode": "GESPROD121"
+    }
+   
+]

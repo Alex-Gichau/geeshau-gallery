@@ -1,0 +1,99 @@
+@import url('../../App.css');
+
+footer {
+    background:#0a1535;
+    color:var(--text-color);
+    padding-bottom: var(--uniform-padding);
+    /* margin-top: 200px; For testing */
+    display: flex; 
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-width: 720px;
+    
+}
+
+.floating-banner {
+    background: linear-gradient(90deg, #773ecb, #2663ff);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 3rem;
+    width: 80%;
+    border-radius: var(--border-radius);
+    margin: -50px 20px 20px;
+
+}
+
+.button {
+    display: flex;
+    width: auto;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 18px;
+    padding:1rem ;
+    background:rgb(255, 255, 255);
+    border-radius: var(--border-radius);
+    color:black;
+    
+}
+
+.button:hover {
+    scale: 1.13;
+    transition: scale var(--transition-duration);
+}
+
+.slogan {
+    font-family:var(--font-family);
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: -3px;        
+}
+
+section.top {
+    padding-top: 30px;
+    margin-bottom: 48px;
+}
+
+
+section.top ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    margin: 0 auto;
+    /* border: 2px solid  #fff; */
+    gap: 4rem;
+    
+}
+
+li {
+    line-height: 2rem;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    
+}
+
+section.top a {
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+section.top a:hover {
+    background: #773ecb;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: var(--transition-duration);
+}
+
+
+section.bottom {
+    padding:var(--uniform-padding);
+    margin-bottom: 2rem;
+    border-radius: var(--border-radius);
+    border: .5px solid;
+}

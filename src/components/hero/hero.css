@@ -1,0 +1,116 @@
+/* Container all contents in the hero section */
+.main-container {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    
+}
+
+/* Wraps all containers*/
+.hero-wrapper {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/* Hero Headings and Paragraphs */
+.hero-title {
+    padding: 8em;
+    
+
+    .hero-text {
+        font-size: 3em;
+        line-height: 1;
+        font-weight: 700;
+        letter-spacing: -2px;
+        background: -webkit-linear-gradient(#b1049a, #63025b);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        
+    }
+
+    .hero-hashtag {
+        font-weight: 400;
+        font-size: 1em;
+        padding: 1em;
+        background: rgb(39,0,147);
+        background: linear-gradient(90deg, rgba(39,0,147,1) 8%, rgba(171,0,136,1) 100%);
+        width: max-content;
+        color: white;
+        border-radius: 0.6em;
+
+    }
+
+    .hero-details {
+        font-weight: 250;
+        font-size: 1.1em;
+        
+    }
+}
+
+/* Hero Image on the Right */
+.hero-img {
+    display: flex;
+    width: 50vw;
+    object-fit: cover;
+    height: 100vh;    
+
+}
+
+/* CTA Buttons Container */
+.buttons-container {
+    margin: 1.5em 0 0 0;
+    
+
+}
+
+.explore-btn, .aboutus-btn {
+    width: 14em;
+    margin: 0 1em 0 0;
+    padding: 1.2em;
+    border-radius: 0.5em;
+    
+    
+}
+
+.explore-btn {
+    background: rgb(39,0,147);
+    background: linear-gradient(90deg, rgba(39,0,147,1) 8%, rgba(171,0,136,1) 100%);
+    color: white;
+    font-weight: 500;
+    border:2px solid white;
+        
+}
+
+.aboutus-btn {
+    border: 2px solid rgba(171,0,136,1);
+    background: transparent;
+    color: rgba(171,0,136,1);
+    font-weight: 600;
+    
+}
+
+.counters {
+    display: flex;
+    gap: 3em;
+    margin-top: 1em;
+    text-align: center;
+    
+}
+.counter p:nth-child(1) {
+    font-size: 3em;
+    font-weight: 800;
+    color: rgba(171,0,136,1);
+    letter-spacing: -2px;
+    text-align: center;
+
+}
+
+.counter p:nth-child(2) {
+    font-size: 0.9em;
+    font-weight: 300;
+}
