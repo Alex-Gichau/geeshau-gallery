@@ -1,7 +1,7 @@
 import React from 'react';
 import './navigation.css';
 import geeshau from "../../assets/Geeshau-logo.png"
-import { GoHome, GoMoveToBottom, GoInbox, GoVersions, GoPerson } from 'react-icons/go' /*Github Octicons*/
+import { GoHome, GoMoveToBottom, GoInbox, GoVersions, GoPerson, GoMention } from 'react-icons/go' /*Github Octicons*/
 
 export const Navigation = () => {
   return (
@@ -40,7 +40,7 @@ export const Navigation = () => {
 
           <li className="nav__item">
             <a href="#" className='nav__link'>
-              <span className='icon'></span>
+              <span className='icon'>GoMention</span>
               <span className="nav__name">Contacts</span>
             </a>
           </li>
