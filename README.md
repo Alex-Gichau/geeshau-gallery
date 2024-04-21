@@ -37,4 +37,6 @@
 * **Chat Platform Development**:
    - [React, Redux, NestJS Tutorial](https://youtu.be/p5winbUa4ns)
 
+more features 
+
 This GitHub repository serves as a comprehensive guide and resource hub for Geeshau Art, providing valuable insights, tutorials, and tools for graphics design businesses. Explore the tutorials and modules to enhance your skills and streamline your business operations. 🚀
