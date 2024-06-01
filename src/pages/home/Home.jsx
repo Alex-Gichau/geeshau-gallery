@@ -14,7 +14,7 @@ export const Home = () => {
       <Hero/>
       <Orders/>
       <Products/>
-      {/* <Footer/> */}
+      <Footer/>
     </div>
   )
 }
