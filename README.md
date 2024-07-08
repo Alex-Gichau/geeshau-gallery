@@ -1,9 +1,28 @@
 ### 🎨 Geeshau Art Webplatform
 
 ## Features
-1. **Products & Products Details**: Showcase artworks and provide detailed information about each piece.
-2. **Invoice Generator / Pricing**: Generate invoices for clients and set pricing for various services.
-3. **Time Estimation**: Estimate the duration required to complete specific tasks, allowing clients to book available time slots.
+FEATURES | Geeshau Order System
+Self service ordering
+Landing Page for the company
+Downloadable flyers / brochures
+Catalogue - Products detailed description based on (Catalogue Manager)
+Job Tracker
+Payment service - Till Number
+Order Tracker per client - Enter trackID / InvoiceID
+
+FEATURES |  Geeshau Inhouse System
+Job Scheduling
+Dashboard
+Invoice 
+Receipt
+Payment Tracker / Finance - Till Number
+Catalogue Manager
+Catalogue Analytics
+Campaigns
+Social Media & Product Management
+Vendor Management - For outsourced products
+Order Tracker - Database
+Bulk SMS  & WhatsApp notification when status changes to completed. 
 
 ## Business Profile Site with HTML, CSS & JavaScript
 * **Follow Through with**:
