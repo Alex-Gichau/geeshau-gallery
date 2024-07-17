@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Playwrite+CU:wght@100..400&display=swap');
+
+* {
+    font-family: "DM Serif Display";
+    padding: 0;
+    margin: 0;
+
+}
+
+:root {
+    
+}
+
+h4 {
+    font-weight: 300;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    background: green;
+    padding: 2rem;
+    height: 100vh;
+}
+/* Right Content */
+.right-content {
+    flex-direction: column;
+}
+
+.right-content > p {
+    font-weight: 100;
+}
+
+.right-content > img {
+    border-radius: 50%;
+}
+
+/* Left Content */
+.left-content {
+    flex-direction: column;
+    width: 50%;
+    
+}
+
