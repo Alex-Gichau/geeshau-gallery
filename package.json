@@ -1,5 +1,16 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.4.6"
-  }
+  },
+  "name": "geeshau-gallery-1",
+  "version": "1.0.0",
+  "description": "FEATURES | Geeshau Order System\r Self service ordering\r Landing Page for the company\r Downloadable flyers / brochures\r Catalogue - Products detailed description based on (Catalogue Manager)\r Job Tracker\r Payment service - Till Number\r Order Tracker per client - Enter trackID / InvoiceID",
+  "main": "tailwind.config.js",
+
+  "scripts": {
+    "build":"npx tailwindcss -i ./public/style.css -o ./dist/tailwind.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
