@@ -6,11 +6,13 @@
   "version": "1.0.0",
   "description": "FEATURES | Geeshau Order System\r Self service ordering\r Landing Page for the company\r Downloadable flyers / brochures\r Catalogue - Products detailed description based on (Catalogue Manager)\r Job Tracker\r Payment service - Till Number\r Order Tracker per client - Enter trackID / InvoiceID",
   "main": "tailwind.config.js",
-
   "scripts": {
-    "build":"npx tailwindcss -i ./public/style.css -o ./dist/output.css --watch"
+    "build": "npx tailwindcss -i ./public/style.css -o ./dist/output.css --watch"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vercel": "^37.1.1"
+  }
 }
