@@ -926,6 +926,11 @@ video {
      object-fit: contain;
 }
 
+.object-fill {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+
 .p-2\.5 {
   padding: 0.625rem;
 }
@@ -1223,6 +1228,10 @@ video {
     display: flex;
   }
 
+  .lg\:hidden {
+    display: none;
+  }
+
   .lg\:w-auto {
     width: auto;
   }
@@ -1317,6 +1326,11 @@ video {
   .dark\:text-gray-300 {
     --tw-text-opacity: 1;
     color: rgb(209 213 219 / var(--tw-text-opacity));
+  }
+
+  .dark\:text-gray-700 {
+    --tw-text-opacity: 1;
+    color: rgb(55 65 81 / var(--tw-text-opacity));
   }
 
   .dark\:text-white {
