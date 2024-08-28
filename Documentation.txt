@@ -3,6 +3,10 @@ Features :
 2. Search bar functionality. Filter items on Catalogue pages. 
 Note: Search icon redirects to Catalogue page for more results. 
 3. Landing page footer
+4. Hover icon on Images for download/share/compare/open Category filtered in Catalogue : 
+e.g. Click poster on landing page then direct to others posters in Catalogue
+5. Compare feature for two designs or more - Like KaiandKaro cars
+6. Keep refining background
 
 Issues : 
 todo #4 : FLoating navbar on sm screen not showing all contents
