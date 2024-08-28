@@ -1,0 +1,8 @@
+Features : 
+1. Floating navbar on small screen with backdrop-filter:blur
+2. Search bar functionality. Filter items on Catalogue pages. 
+Note: Search icon redirects to Catalogue page for more results. 
+3. Landing page footer
+
+Issues : 
+todo #4 : FLoating navbar on sm screen not showing all contents
