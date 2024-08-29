@@ -13,7 +13,7 @@
 <body>
 
   <section class="bg-white dark:bg-gray-900">
-    <div class="absolute rounded-lg w-full p-6 text-5xl blur-3xl bg-white rotate-45 -z-1"></div>
+    <div class="absolute rounded-lg w-full p-10 text-5xl blur-3xl bg-white rotate-45 -z-1 opacity-40"></div>
     <nav
       class="lg:sticky lg:top-0 z-10 p-6 flex justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-sm fixed overflow-hidden bottom-0 w-full">
       <!-- TODO #3 -->
@@ -130,39 +130,19 @@
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                   d="m1 1 4 4 4-4" />
               </svg>
-            </button>
-            <div id="dropdown"
-              class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-              <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdown-button">
-                <li>
-                  <button type="button"
-                    class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mockups</button>
-                </li>
-                <li>
-                  <button type="button"
-                    class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Social
-                    Media</button>
-                </li>
-                <li>
-                  <button type="button"
-                    class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Wedding</button>
-                </li>
-                <li>
-                  <button type="button"
-                    class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Merch</button>
-                </li>
-                <li>
-                  <button type="button"
-                    class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Corporate</button>
-                </li>
-                <li>
-                  <button type="button"
-                    class="inline-flex w-full px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Business
-                    Package</button>
-                </li>
-              </ul>
+
+              <div id="dropdown" class="bg-white absolute text-left p-3 divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 cursor-pointer z-10 hover:flex focus:flex mt-12 text-gray-300 hidden">
+              <div class="">
+                <a href="#"><p>✒ Posters</p></a>
+                <a href="#"><p>🍨 Logos</p></a>
+                <a href="#"><p>👰 Weddings</p></a>
+                <a href="#"><p>👯‍♂️ Ruracio</p></a>
+                <a href="#"><p>📷 More</p></a>
+              </div>
 
             </div>
+            </button>
+            
             <div class="relative w-full">
               <input type="search" id="search-dropdown"
                 class="block p-2.5 w-full h-full z-20 text-sm text-gray-900 bg-gray-50 rounded-e-lg border-s-gray-50 border-s-2 border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholderbg-gray-400 dark:text-white dark:focus:border-blue-500"
