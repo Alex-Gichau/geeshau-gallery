@@ -10,7 +10,7 @@
 <body>
 
     <!-- Page Container -->
-    <section class="bg-white dark:bg-gray-900">
+    <section class="bg-white dark:bg-gray-900 overflow-hidden">
         <!-- Navbar menu -->
         <nav
         class="lg:sticky lg:top-0 z-10 p-6 flex justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-sm fixed overflow-hidden bottom-0 w-full">
@@ -105,15 +105,28 @@
       </nav>
 
       <!-- Page Content -->
-      <div class="flex p-6 mx-auto ">
-        <div class="grid grid-cols-3 gap-2">
-            <div class="flex gap-2 ">
-                <h3 class="dark:text-white text-neutral-800 font-extrabold tracking-tight">Social Media Posters
-                    <p class="text-white font-extralight">Illustrations for your social media to brand your events, weddings, posters and others.</p>
-                </h3>
-                <img src="https://i.pinimg.com/736x/37/aa/fe/37aafe6bcf17c9c8304f204ddda2c676.jpg" alt="Posters" class="w-1/8 rounded-xl shadow-md">
-                <img src="https://i.pinimg.com/736x/37/aa/fe/37aafe6bcf17c9c8304f204ddda2c676.jpg" alt="Posters" class="w-full rounded-xl shadow-md">
-                <img src="https://i.pinimg.com/736x/37/aa/fe/37aafe6bcf17c9c8304f204ddda2c676.jpg" alt="Posters" class="w-full rounded-xl shadow-md">
+      <div>
+        <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 sm:grid-cols-2 gap-5">
+
+                <div class="relative w-full flex items-end justify-start text-left bg-cover bg-center" style="height: 450px; background-image:url(https://i.pinimg.com/474x/d9/58/92/d95892d0361b34e9c54e72e3643393e0.jpg);">
+                </div>
+                <div class="absolute top-0 right-0 left-0 mx-5 mt-2 flex justify-between items-center">
+                    <a href="#" class="text-xs bg-indigo-600 text-white px-5 py-2 uppercase hover:bg-white hover:text-indigo-600 transition ease-in-out duration-500">Politics</a>
+                    <div class="text-white font-regular flex flex-col justify-start">
+                        <span class="text-3xl leading-0 font-semibold">25</span>
+                        <span class="-mt-3">May</span>
+                    </div>
+                </div>
+                <main class="p-5 z-10">
+                    <a href="#" class="text-md tracking-tight font-medium leading-7 text-white hover:underline">
+                        Social Media Description
+                    </a>
+
+                </main>
+
+                </div>
+                
             </div>
 
         </div>
