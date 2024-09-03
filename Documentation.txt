@@ -7,6 +7,7 @@ Note: Search icon redirects to Catalogue page for more results.
 e.g. Click poster on landing page then direct to others posters in Catalogue
 5. Compare feature for two designs or more - Like KaiandKaro cars
 6. Keep refining background
+7. FIGMA - UI layout
 
 Issues : 
 todo #4 : FLoating navbar on sm screen not showing all contents
