@@ -10,4 +10,5 @@ module.exports = {
 
 // For quick project build : 
 // Run : npm run build
-// Instead of tailwind build command : npx tailwindcss -i ./public/style.css -o ./src/output.css --watch
+// Instead of tailwind build command : 
+//npx tailwindcss -i ./public/style.css -o ./src/output.css --watch
