@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/dist/output.css">
     <link rel="ico" type="image/x-icon" href="/src/alex.ico">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0">
+    <link rel="stylesheet" href="/public/catalogue.css">
     <title>Catalogue</title>
 </head>
 
 <body>
 
     <!-- Page Container -->
-    <section class="bg-white dark:bg-gray-900 overflow-hidden">
+    <section class=" bg-white dark:bg-gray-900 overflow-hidden p-3">
         <!-- Navbar menu -->
         <nav
             class="lg:sticky lg:top-0 z-10 p-6 flex justify-between items-center backdrop-filter backdrop-blur-lg bg-opacity-30 shadow-sm fixed overflow-hidden bottom-0 w-full">
@@ -112,23 +114,116 @@
 
                 <!-- Register Button -->
                 <a class="lg:block px-5 py-2 mt-4 text-sm text-center text-white capitalize bg-blue-600 rounded-lg lg:mt-0 hover:bg-blue-500 lg:w-auto hidden"
-                    href="/pages/forms.html">Register With Us</a>
+                    href="/pages/forms.html">Register</a>
 
             </div>
 
         </nav>
 
         <!-- Page Content -->
-        <div>
-            <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16">
-                <div class="text-white">
+        <div class="container flex px-6 py-16 mx-auto text-center flex-col justify-between h-screen mb-auto">
+            <div class="max-w-screen-xl mx-auto p-5 sm:p-10 md:p-16 h-full">
+                <div class="max-w-lg mx-auto">
+                    <h1 class="lg:text-5xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-orange-600 to-gray-500 dark:text-white text-3xl tracking-tight sm:text-5xl">Geeshau Art Catalogue</h1>
+                    <p class="text-3xl font-extralight text-gray-800 dark:text-white tracking-tight ">Search and download artworks</p>
+                    <div>
+                        <div class="relative w-full">
+                            <input type="search" id="search-dropdown"
+                              class="block rounded-md mt-2 p-2.5 w-full h-full z-20 text-sm text-gray-900 bg-gray-50 rounded-e-lg border-s-gray-50 border-s-2 border-gray-300 focus:ring-blue-500 focus:border-blue-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholderbg-gray-400 dark:text-white dark:focus:border-blue-500"
+                              placeholder="Search Logos, Posters, Weddings..." required />
+              
+                            <button type="submit"
+                              class="absolute top-0 end-0 p-2.5 text-sm font-medium h-full text-white bg-blue-700 rounded-e-lg border border-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"><svg
+                                class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 20">
+                                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                  d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z" />
+                              </svg></button>
+                          </div>
+                    </div>
 
-                    
+                </div>
 
-        </div>
+            </div>
 
-        <!-- Footer -->
-        <footer class="bg-white dark:bg-gray-900">
+            <!-- Images -->
+            <div class="relative p-6 grid grid-cols-3 md:grid-cols-4 gap-4 max-w-4xl overflow-hidden justify-center" style=" z-index: 5;">
+                <div class="grid gap-4">
+                  <div>
+                    <!-- Hover icons for share/download/copylink/open in catalogue -->
+                    <img class="w-full object-fill rounded-xl shadow"
+                      src="https://i.pinimg.com/736x/37/aa/fe/37aafe6bcf17c9c8304f204ddda2c676.jpg">
+                  </div>
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/8e/53/46/8e53468b65321406f505a3fd48f8f029.jpg">
+                  </div>
+        
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/d8/a2/c9/d8a2c9d811c8098f83b3f74770e94e04.jpg">
+                  </div>
+        
+                </div>
+        
+                <div class="grid gap-4">
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/ae/d0/1e/aed01e6cb856587d7db1734abe8b9347.jpg">
+                  </div>
+        
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/0f/b3/29/0fb3295ba0f6c69359a507b6b18f2617.jpg">
+                  </div>
+        
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/1d/c8/ee/1dc8ee45e534ce248048afcc82040d31.jpg">
+                  </div>
+                </div>
+        
+                <div class="grid gap-4">
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/d1/d0/81/d1d081febadbbd84ec7234209fd61a7b.jpg">
+                  </div>
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/85/72/85/857285c879e0c164064a2b5a245e2470.jpg">
+                  </div>
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/f5/10/6e/f5106e4ca877029c84620e3404cd85dc.jpg">
+                  </div>
+                </div>
+        
+                <div class="grid gap-4">
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/5b/ea/3a/5bea3a47366af31a1411b27d8eadf3ed.jpg">
+                  </div>
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/95/cf/0e/95cf0e2cb775d0f70cb355c8af051919.jpg">
+                  </div>
+                  <div>
+                    <img class="w-full rounded-xl shadow"
+                      src="https://i.pinimg.com/474x/d9/58/92/d95892d0361b34e9c54e72e3643393e0.jpg">
+                  </div>
+                  
+                </div>
+
+                
+              </div>
+
+              <div class=" flex flex-col w-full pt-5 bg-gradient-to-t from-red-900 to-red-900 justify-center">
+              <button class="lg:block px-5 py-2 text-sm text-center text-white capitalize bg-blue-600 rounded-lg lg:mt-0 hover:bg-blue-500 lg:w-auto" href="#">Load More</button>
+              <div>
+
+              </div>
+
+             <!-- Footer -->
+        <footer class="bg-white dark:bg-gray-900 sticky mt-10">
             <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8 lg:bottom-0">
                 <nav class="flex flex-wrap justify-center -mx-5 -my-2">
                     <div class="px-5 py-2">
@@ -148,7 +243,8 @@
                     </div>
                 </nav>
 
-                <div class="flex justify-center mt-10">
+                <!-- Social Media Icons -->
+                <div class="flex justify-center mt-10 gap-4">
                     <a href="#" class="text-gray-400 hover:text-gray-500">
                         <span class="sr-only lg:hidden">Facebook</span>
                         <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 24 24">
@@ -209,10 +305,14 @@
 </svg>
                         </a>
                 </div>
-                <p class="mt-8 text-base text-center leading-6 text-gray-400"> © Geeshau Art, Inc. All rights reserved</p>
+                <p class="mt-6 text-base text-center leading-6 text-gray-400"> © Geeshau Art, Inc. All rights reserved</p>
 
             </div>
-        </footer>
+        </footer>       
+
+        </div>
+
+        
 
 
     </section>
