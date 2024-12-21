@@ -1,0 +1,72 @@
+GEESHAU ART & GRAPHICS
+Title : Geeshau Art | Portfolio
+Audience : Potential clients, existing clients, potential collaborating designers and potential hiring managers
+Slogan : Brand your brand.
+Aim : Make great artworks easily accessible for startups, businesses and institutions. 
+
+Purpose : 
+    - Aid enquiries for sample of artworks. 
+    - Provide contact information. 
+    - Market services offered. i.e. Design categories (for media, for publishing), digital branding, print(by other vendors) and delivery via (Pickup Mtaani, G4S & other Courrier services)
+
+Theme Colors : 
+    - Light Theme : White, Black, Orange and Blue
+    - Dark Theme : White, Dark Gray, Orange and Blue
+
+
+RULES TO APPLY IN DEVELOPMENT : 
+    - The lesser the pages the better. Use, dropdowns, hover tips and more. 
+
+MAIN FEATURES 
+=============
+1. Landing page
+    - The landing page is the first glance. The page includes boldly highlighted text "START HERE! THE HOME OF GREAT ARTWORK!".
+    - It contains the hero section, call to action and subfeatures listed below. 
+
+    DETAILS :
+    1. Bold highlighted title (Like Freddy's poster - CNC Masters)
+    2. SVG icons and animation of design tools (.e.g. Pen tool e.t.c.)
+    3. Floating cards with stats on performance .e.g. Orders Completed, Clients Served
+    4. Indicate : We have helped over 80+ clients and 1000+ artworks to market their business. 
+ 
+
+2. Call To Action
+    - Contains a search bar that redirects to a filtered search on the catalogue page. 
+
+3. Clients we have worked with
+
+4. Feedback 
+    - Customer experience through geeshauart.com
+
+5. Services We offer
+    - Our core business is design. Categories of design include : Design for media, design for publishing, digital branding (business and personal) and Printing Services (by external vendors)
+    - See our design packages for more details. 
+    - Ratecard Download
+
+    Details : 
+    - Order Tracking Features
+    - Payment via MPESA, KCB Bank & Paypal
+
+    Terms : 
+    - No credit
+    - Payment On Arrival
+    - Milestone payments / Installments (+5%)
+
+6. Contact information
+
+7. Footer 
+    - Quick links to other pages : Download Ratecard (Blob from Excel)
+
+
+SUB-FEATURES : 
+==============
+1. Order tracker (Data source - Fetch from Google Sheets)
+    - Enter tracking ID
+    - Track progress and when it will be ready
+
+2. Catalogue : 
+    - 
+
+3. Most Recent Design Section (After ipad Mockup)
+    - For every design, add pinterest link to invoice on excelsheet.
+    - Connect website to google sheets (JSON).

@@ -1,0 +1,35 @@
+PORTFOLIO WEBSITE
+This website is a representation of the artworks Geeshau Art has worked on for different clients. The demonstrations are the final products and samples for various industries. 
+For this project, some of the tasks include : 
+
+WEEK 1 (Sept 16th - Sept 21st)
+1. Planning : Define all features and sub-features of the project ( Detailed )
+2. Design : UI/UX Design of the complete project (Complete)
+3. Timeline chart for feature coding
+---
+WEEK 2 (Sept 23rd - Sept 28th)
+4. Coding : Code Environment Setup
+5. Coding : Main screens and navigation
+6. Coding : Functionalities
+---
+WEEK 3 (Sept 30th - Oct 04th)
+7. Coding : Database and APIs
+8. Coding : Authentication with Firebase (Maybe)
+9. Deployment : Launch to Vercel & Setup Public Domain
+10. Deployment : Publish on a domain
+
+--- 
+
+Features : 
+1. Floating navbar on small screen with backdrop-filter:blur
+2. Search bar functionality. Filter items on Catalogue pages. 
+Note: Search icon redirects to Catalogue page for more results. 
+3. Landing page footer
+4. Hover icon on Images for download/share/compare/open Category filtered in Catalogue : 
+e.g. Click poster on landing page then direct to others posters in Catalogue
+5. Compare feature for two designs or more - Like KaiandKaro cars
+6. Keep refining background
+7. FIGMA - UI layout
+
+Issues : 
+todo #4 : FLoating navbar on (sm)screen not showing all contents.
