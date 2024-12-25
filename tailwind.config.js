@@ -2,11 +2,6 @@
 module.exports = {
   content: ["./public/**/*.{html,js}"],
   theme: {
-    card : {
-      center : true,
-      border:white,
-
-    },
     extend: {},
   },
   plugins: [],
