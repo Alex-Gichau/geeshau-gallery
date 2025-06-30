@@ -1,0 +1,6 @@
+feat: Create cyberpunk-themed dashboard
+
+- Add a new dashboard page with a cyberpunk theme.
+- The dashboard displays key metrics such as total revenue, subscriptions, sales, and active users.
+- The page is built with React and Tailwind CSS.
+- The build script has been updated to handle Node.js v20.10.0 compatibility issues.
