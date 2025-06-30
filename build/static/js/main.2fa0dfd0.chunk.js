@@ -1,0 +1,2 @@
+(this["webpackJsonpanimations-portfolio"]=this["webpackJsonpanimations-portfolio"]||[]).push([[0],{4:function(o,t,e){"use strict";e.r(t);var n=e(0),i=e.n(n),r=e(3),c=e.n(r),s=e(1);c.a.createRoot(document.getElementById("root")).render(Object(s.jsx)(i.a.StrictMode,{children:Object(s.jsx)("h1",{children:"Hello, world!"})}))}},[[4,1,2]]]);
+//# sourceMappingURL=main.2fa0dfd0.chunk.js.map
